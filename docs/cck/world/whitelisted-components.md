@@ -133,5 +133,6 @@ A list of all whitelisted components for worlds.
 + [CVR Material Driver](../components/material-driver.md)
 + [CVR Material Updater](../components/material-updater.md)
 + [CVR Particle Sound](../components/particle-sound.md)
++ [CVR Skybox Manipulator](../components/skybox-manipulator.md)
 + [CVR World](../components/world.md)
 + [CVR Asset Info](../components/asset-info.md)

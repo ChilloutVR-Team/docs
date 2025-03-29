@@ -73,5 +73,6 @@ A list of all whitelisted components for avatars.
 + [CVR Toggle State Trigger](../components/state-trigger.md)
 + [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
 + [CVR Pointer](../components/CVRPointer.md)
++ [CVR Skybox Manipulator](../components/skybox-manipulator.md)
 + [CVR Avatar](../components/CVRAvatar.md)
 + [CVR Asset Info](../components/CVRAssetInfo.md)
