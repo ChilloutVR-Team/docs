@@ -1,7 +1,9 @@
 # Globals
+
 Here you have properties and functions available to every script.
 
 ## Modules
+
 Some bindings are provided by dedicated modules. You can access these modules by requiring them in your script.
 
 | Function              | Description                                   |
@@ -9,6 +11,7 @@ Some bindings are provided by dedicated modules. You can access these modules by
 | `require(moduleName)` | Adding modules to be available to Lua script. |
 
 ### Available Modules
+
 - `System`
 - `UnityEngine`
 - `UnityEngine.AI`
@@ -31,11 +34,13 @@ local coolVector = UnityEngine.NewVector3(1, 2, 3)
 ```
 
 ## Special Functions
+
 | Function                 | Description                                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `IsValid(object) : bool` | Determines whether a given System object, Unity Object, or API Object (Like [Player](./player-api.md#player) or [Avatar](./avatar-api.md#avatar)) is `null` or not. <br>It uses Unity's specific null check for Unity Objects to ensure accurate validation. |
 
 ## MonoBehaviour
+
 | Property     | Description                             |
 |--------------|-----------------------------------------|
 | `name`       | Access to the attached gameObject name. |
@@ -45,6 +50,7 @@ local coolVector = UnityEngine.NewVector3(1, 2, 3)
 Most MonoBehaviour [Events](events.md) are also available.
 
 ## LuaBehaviour
+
 | Property                     | Description                                                                         |
 |------------------------------|-------------------------------------------------------------------------------------|
 | `Hash`                       | SHA512 hash of script text as Base64 string.                                        |
@@ -61,8 +67,10 @@ Most MonoBehaviour [Events](events.md) are also available.
 
 ## API Access
 
-| API                              | Description                 | Example                                        |
-|----------------------------------|-----------------------------|------------------------------------------------|
-| [PlayerAPI](player-api.md)       | Access to the PlayerAPI.    | **Example:** `PlayerAPI.LocalPlayer.Respawn()` |
-| [InstancesAPI](instances-api.md) | Access to the InstancesAPI. | **Example:** `print(InstancesAPI.Ping)`        |
-| [AvatarAPI](avatar-api.md)       | Access to the AvatarAPI.    | **Example:** `print(AvatarAPI.LocalAvatar)`    |
+| API                              | Description                 | Example                                           |
+|----------------------------------|-----------------------------|---------------------------------------------------|
+| [PlayerAPI](player-api.md)       | Access to the PlayerAPI.    | **Example:** `PlayerAPI.LocalPlayer.Respawn()`    |
+| [InstancesAPI](instances-api.md) | Access to the InstancesAPI. | **Example:** `print(InstancesAPI.Ping)`           |
+| [AvatarAPI](avatar-api.md)       | Access to the AvatarAPI.    | **Example:** `print(AvatarAPI.LocalAvatar)`       |
+| [SpawnableAPI](spawnable-api.md) | Access to the SpawnableAPI. | **Example:** `print(#SpawnableAPI.AllSpawnables)` |
+| [WorldAPI](world-api.md)         | Access to the WorldAPI.     | **Example:** `print(WorldAPI.WorldID)`            |

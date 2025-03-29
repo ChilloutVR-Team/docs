@@ -10,4 +10,6 @@ provide comprehensive information on various available APIs.
 - [InstancesAPI](instances-api.md)
 - [PlayerAPI](player-api.md)
 - [AvatarAPI](avatar-api.md)
+- [SpawnableAPI](spawnable-api.md)
+- [WorldAPI](world-api.md)
 - [Lua Behaviour](lua-behaviour.md)

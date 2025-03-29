@@ -1,6 +1,6 @@
 # PlayerAPI
 
-Accessible via the `PlayerAPI` [Global](globals.md). This API provides access to all players in the world, including the
+Accessible via the `PlayerAPI` [Global](globals.md#api-access). This API provides access to all players in the world, including the
 local player.
 
 ## Static Functions
@@ -26,13 +26,14 @@ Entity that represents a Player, these Functions and Properties accessible from 
 
 ### Properties
 
-| Name                                                           | Description                            |
-|----------------------------------------------------------------|----------------------------------------|
-| `IsLocal : bool`                                               | Indicates if this is the local player. |
-| `IsRemote : bool`                                              | Indicates if this is a remote player.  |
-| `Username : string`                                            | Username of the player.                |
-| `UserID : string`                                              | Unique identifier for the player.      |
-| `Avatar : Avatar` <br>(Returns [Avatar](avatar-api.md#avatar)) | Get the player's Avatar Instance.      |
+| Name                                                                                       | Description                            |
+|--------------------------------------------------------------------------------------------|----------------------------------------|
+| `IsLocal : bool`                                                                           | Indicates if this is the local player. |
+| `IsRemote : bool`                                                                          | Indicates if this is a remote player.  |
+| `Username : string`                                                                        | Username of the player.                |
+| `UserID : string`                                                                          | Unique identifier for the player.      |
+| `Avatar : Avatar` <br>(Returns [Avatar](avatar-api.md#avatar))                             | Get the player's Avatar Instance.      |
+| `Spawnables : List<Spawnable>` <br>(Returns List<[Spawnable](spawnable-api.md#spawnable)>) | Get the player's spawned spawnables.   |
 
 ### Core Parameters
 
@@ -120,7 +121,7 @@ The viseme index values are mapped as follows:
 ### Profile Picture
 
 Requesting the picture is a bit more complicated as it needs to be acquired in the first place. So it's not a function
-that will give the results right away. Instead, it uses a callback lua function, which is basically a normal lua 
+that will give the results right away. Instead, it uses a callback lua function, which is basically a normal lua
 function that gets called whenever the request is finished.
 
 For a complete example, check: [Player Profile and Avatar Picture Example](../examples/player-profile-picture.md)
@@ -143,9 +144,9 @@ Functions and properties specific to remote players.
 
 ### Properties
 
-| Name                               | Description                                             |
-|------------------------------------|---------------------------------------------------------|
-| `IsNameplateActive : bool`         | Indicates whether the nameplate is active or not.       |
+| Name                       | Description                                       |
+|----------------------------|---------------------------------------------------|
+| `IsNameplateActive : bool` | Indicates whether the nameplate is active or not. |
 
 ### Methods
 
@@ -196,7 +197,8 @@ Functions and properties specific to the local player.
 | `GetControllerVelocity() : Vector3 : void`                                                                    | Gets the current Player Controller velocity.                                                |
 | `SetControllerVelocity(Vector3) : void`                                                                       | Sets the current Player Controller velocity.                                                |
 
-**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is
+true.
 
 ### Position and Orientation
 
@@ -205,8 +207,8 @@ Functions and properties specific to the local player.
 | `SetPosition(Vector3 targetPos)`    | Set current position of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
 | `SetRotation(Quaternion targetRot)` | Set current rotation of the player in world space without interpolation, nor grounding the player, nor preserving velocity. For more versatility use the [Teleportation methods](#teleportation) |
 
-
-**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is
+true.
 
 ### Teleportation
 
@@ -217,7 +219,8 @@ Functions and properties specific to the local player.
 | `TeleportPlayerTo(Vector3 targetPos, Quaternion targetRot, bool interpolate, bool updateGround, bool preserveVelocity)`           | Teleports the player to a specified position and rotation.                      |
 | `TeleportPlayerTo(Transform targetTransform, bool interpolate, bool updateGround, bool preserveVelocity)`                         | Teleports the player to a specified transform, orienting the player with it.    |
 
-**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is
+true.
 
 ### Avatar Management
 
@@ -225,7 +228,8 @@ Functions and properties specific to the local player.
 |---------------------------------|-------------------------------------------------------------------------------------|
 | `SwitchAvatar(string avatarId)` | Switches the player's avatar. <br>Limited to once every 3 seconds (global timeout). |
 
-**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is
+true.
 
 ### IK Control
 
@@ -250,4 +254,5 @@ Functions and properties specific to the local player.
 | `SetBodyControlRightLegWeight(weightValue) : void`   | [ 0.0 ; 1.0 ] Sets the Player's BodySystem RightLeg weight   |
 | `SetBodyControlLocomotionWeight(weightValue) : void` | [ 0.0 ; 1.0 ] Sets the Player's BodySystem Locomotion weight |
 
-**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is true.
+**Note:** These functions can only be called by worlds, avatars when `WornByMe` is true, and props when `SpawnedByMe` is
+true.

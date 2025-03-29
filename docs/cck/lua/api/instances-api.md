@@ -1,6 +1,8 @@
 # InstancesAPI
 
-Accessible via the `InstancesAPI` [Global](globals.md). This API provides access to information about the currently connected instance.
+Accessible via the `InstancesAPI` [Global](globals.md#api-access). This API provides access to information about the currently connected instance.
+
+There are some events for instances, they can be checked here: [Instance Events](events.md#instances-events)
 
 ## Static Properties
 

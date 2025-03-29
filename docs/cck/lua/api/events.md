@@ -27,6 +27,13 @@
 | `OnInstanceConnectionLost()`      | Called you lost connection to an online instance.     |
 | `OnInstanceConnectionRecovered()` | Called you recover connection to the online instance. |
 
+### Spawnable Events
+
+| Event                                                                                                                          | Description                         |
+|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| `OnSpawnableCreated(spawnable, spawner)` <br>(Args: [Spawnable](spawnable-api.md#spawnable), [Player](player-api.md#player))   | Called when a spawnable is spawned. |
+| `OnSpawnableDestroyed(spawnable, spawner)` <br>(Args: [Spawnable](spawnable-api.md#spawnable), [Player](player-api.md#player)) | Called when a spawnable is deleted. |
+
 ### VR Mode Switch Events
 
 | Event                                       | Description                                                                           |

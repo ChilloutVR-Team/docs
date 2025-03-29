@@ -1,6 +1,8 @@
 # AvatarAPI
 
-Accessible via the `AvatarAPI` [Global](globals.md). This API provides access to the Local [Avatar](#avatar)
+Accessible via the `AvatarAPI` [Global](globals.md#api-access). This API provides access to the Local [Avatar](#avatar)
+
+There are some events for avatars, they can be checked here: [Avatar Events](events.md#avatar-events)
 
 ## Static Properties
 
@@ -12,17 +14,18 @@ Accessible via the `AvatarAPI` [Global](globals.md). This API provides access to
 ## Avatar
 
 The `Avatar` instances can be accessed via:
-- The `AvatarAPI.LocalAvatar` [Global](globals.md)
-- The player instance ([Player](player-api.md)). They have a property named `Avatar`
+
+- The `AvatarAPI.LocalAvatar` [Global](globals.md#api-access)
+- The player instance ([Player](player-api.md#player)). It has a property named `Avatar`
 
 ### Properties
 
-| Property                                          | Description                                                               |
-|---------------------------------------------------|---------------------------------------------------------------------------|
-| `AvatarID : string`                               | Unique identifier for the avatar. Retrieves the avatar's asset object ID. |
-| `Wearer : Avatar` <br>(Returns [Avatar](#avatar)) | Reference to the avatar's wearer Player's [Player](player-api.md)         |
-| `IsLoaded : bool`                                 | Returns whether an avatar is loaded or not.                               |
-| `IsHuman : bool`                                  | Checks if the animator's avatar is humanoid.                              |
+| Property                                                       | Description                                                               |
+|----------------------------------------------------------------|---------------------------------------------------------------------------|
+| `AvatarID : string`                                            | Unique identifier for the avatar. Retrieves the avatar's asset object ID. |
+| `Wearer : Player` <br>(Returns [Player](player-api.md#player)) | Reference to the avatar's wearer Player's [Player](player-api.md)         |
+| `IsLoaded : bool`                                              | Returns whether an avatar is loaded or not.                               |
+| `IsHuman : bool`                                               | Checks if the animator's avatar is humanoid.                              |
 
 ### Methods
 
@@ -53,7 +56,7 @@ The `Avatar` instances can be accessed via:
 ### Avatar Picture
 
 Requesting the picture is a bit more complicated as it needs to be acquired in the first place. So it's not a function
-that will give the results right away. Instead, it uses a callback lua function, which is basically a normal lua 
+that will give the results right away. Instead, it uses a callback lua function, which is basically a normal lua
 function that gets called whenever the request is finished.
 
 For a complete example, check: [Player Profile and Avatar Picture Example](../examples/player-profile-picture.md)
