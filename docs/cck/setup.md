@@ -40,5 +40,5 @@ a ticket for publishing. We will get back to you shortly.
 
 <hr>
 **Any questions left?**  
-See our [FAQ](../faq/), check out our [Discord](https://discord.gg/abi), take a look at our 
-[Feedback Platform](https://feedback.abinteractive.net/) or mention us on Twitter [@AlphaBlendNET](https://twitter.com/AlphaBlendNET).
+See our [FAQ](../faq/), check out our [Discord](https://discord.gg/ChilloutVR), take a look at our 
+[Feedback Platform](https://github.com/Alpha-Blend-Interactive/ChilloutVR/issues) or mention us on Twitter [@AlphaBlendNET](https://twitter.com/AlphaBlendNET).
