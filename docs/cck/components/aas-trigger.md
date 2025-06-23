@@ -2,6 +2,8 @@
 With this component you can modify your advanced avatar settings parameter values when a **[CVR Pointer](CVRPointer.md)** 
 enters the indicated trigger area. Size and placement can be adjusted with the settings bellow.  
 The trigger area will move together with its parented armature bone or game object.
+If another collider component (such as a Box Collider, Sphere Collider, Mesh Collider, etc) is present on the same game object, that collider will be used as the trigger area.
+Note that non-convex Mesh Colliders are not supported.
 
 ### Properties
 
