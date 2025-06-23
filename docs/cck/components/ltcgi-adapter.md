@@ -3,6 +3,9 @@
 This component provides the interface to set up and control [LTCGI](<https://ltcgi.dev/>){:target="_blank"} in your
 World
 
+!!! warning
+    We're not using the original `LTCGI` repo/package because it doesn't support Unity 2021, the changes to support were requested on the official repo. Please follow the Setup instructions below, otherwise, refer to this link for the compatible version: <https://github.com/kafeijao/ltcgi/releases/latest>{:target="_blank"}
+
 ### Setup
 
 The component will guide you to set up LTCGI
