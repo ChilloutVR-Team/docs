@@ -6,7 +6,7 @@ The following script will make the GameObject it's embedded in rotate on a rando
 -- From scripting team meeting notes:
 --   First use case: Cubespin with random start position, random direction, resets after 10s.
 UnityEngine = require "UnityEngine"
-CCKComponents = require "ABI.CCK"
+CCKComponents = require "CVR.CCK"
 
 -- LuaLS/LuaCATS annotations start with three dashes (---)
 
