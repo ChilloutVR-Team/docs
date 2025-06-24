@@ -6,4 +6,5 @@ Click on [Quick Start](quick-start.md) to get started with ChilloutVR!
 + [Quick Start](quick-start.md)
 + [General Information](general)
 + [Controls](controls)
++ [Game](game)
 + [FAQ](faq)

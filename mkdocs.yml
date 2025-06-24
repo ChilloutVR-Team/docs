@@ -1,12 +1,12 @@
 site_name: ABI Documentation
-copyright: Copyright &copy; 2021 Alpha Blend Interactive
-site_url: https://docs.abinteractive.net
-repo_name: Alpha-Blend-Interactive/docs
-repo_url: https://github.com/Alpha-Blend-Interactive/docs
+copyright: Copyright &copy; 2025 ChilloutVR-Team
+site_url: https://docs.chilloutvr.net/
+repo_name: ChilloutVR-Team/docs
+repo_url: https://github.com/ChilloutVR-Team/docs
 
 theme:
   name: material
-  logo: assets/images/abi-small-white.png
+  logo: assets/images/CVR-white-small-cut.png
   favicon: assets/images/favicon.png
   features:
     - navigation.instant

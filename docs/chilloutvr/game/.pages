@@ -1,0 +1,5 @@
+title: Game
+nav:
+    - Game: index.md
+    - OSC: osc.md
+    - Launch Arguments: launch-arguments.md
