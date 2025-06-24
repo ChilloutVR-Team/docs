@@ -1,13 +1,12 @@
 # OSC (Open Sound Control)
 
-ChilloutVR supports OSC for remote interaction with avatar parameters, and input control. This is a first iteration,
-more updates are to be expected.
+ChilloutVR supports OSC for remote interaction with avatar parameters and input control. This is a first iteration, more updates are expected after receiving community feedback.
 
 ---
 
 ## Overview
 
-OSC enables communication between ChilloutVR and compatible applications or devices over the network. You can both send
+OSC enables communication between ChilloutVR and compatible applications or devices over the local network. You can both send
 and receive data in real time. ChilloutVR implements support for OSCQuery, making it easier for tools to discover
 available endpoints dynamically.
 
@@ -17,11 +16,11 @@ available endpoints dynamically.
 
 - `/avatar/parameters/<parameter_name>`: Read/write to avatar parameters
 
-**Avatar Control**
+**Avatar Switch**
 
 - `/avatar/change`: Trigger avatar switching (or listen for avatar changes)
 
-**Input Injection**
+**Input**
 
 - `/input/<input_name>`: Simulate game inputs like jump, move, etc.
 
