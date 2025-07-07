@@ -14,15 +14,20 @@ available endpoints dynamically.
 
 **Avatar Parameters**
 
-- `/avatar/parameters/<parameter_name>`: Read/write to avatar parameters
+- `/avatar/parameters/<parameter_name>` Read/write to avatar parameters
 
 **Avatar Switch**
 
-- `/avatar/change`: Trigger avatar switching (or listen for avatar changes)
+- `/avatar/change` Trigger avatar switching (or listen for avatar changes)
+
+**Avatar Profiles**
+
+- `/avatar/profile/change` Trigger avatar profile changes (or listen to the changes). The available avatar profiles for
+  the current avatar can be acquired from OSCQuery.
 
 **Input**
 
-- `/input/<input_name>`: Simulate game inputs like jump, move, etc.
+- `/input/<input_name>` Simulate game inputs like jump, move, etc.
 
 **OSC Query**
 
