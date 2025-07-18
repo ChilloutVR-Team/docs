@@ -117,8 +117,6 @@ and gradients.
 A list of all whitelisted components for worlds.
 
 + [CVR Haptic Chest Area](../components/haptic-chest-area.md)
-+ [CVR Toggle State Trigger](../components/state-trigger.md)
-+ [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
 + [CVR Mirror](../components/mirror.md)
 + [CVR Nav Controller](../components/nav-controller.md)
 + [CVR Object Sync](../components/object-sync.md)
