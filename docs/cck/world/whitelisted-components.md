@@ -136,3 +136,4 @@ A list of all whitelisted components for worlds.
 + [CVR Skybox Manipulator](../components/skybox-manipulator.md)
 + [CVR World](../components/world.md)
 + [CVR Asset Info](../components/asset-info.md)
++ [CVR Input Field Keyboard Handler](../components/input-field-keyboard-handler.md)
