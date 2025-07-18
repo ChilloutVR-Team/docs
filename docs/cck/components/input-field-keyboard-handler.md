@@ -11,4 +11,4 @@ This property allows you to choose how the keyboard behaves when an input field 
 - **OpenKeyboard**: The keyboard will display as normal.
 - **Disabled**: The keyboard will not display at all.
 
-If the input field itself is disabled the keyboard will not display regardless of this setting.~~~~
+If the input field itself is disabled the keyboard will not display regardless of this setting.
