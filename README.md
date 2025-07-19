@@ -17,14 +17,14 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 For guidance writing new documents for CCK components, please follow our [style guide](https://github.com/ChilloutVR-Team/docs/blob/master/CONTRIBUTING.md).
 
-### ABI employee's / ABI internal contributors
+### CVR employee's / CVR internal contributors
 
 For any changes, make a feature branch.
 This means a branch named like `feature/add-cvravatar-feature-docs` with a reasonable short name of the changes you are doing there.
 When you are done with your changes, merge them into develop.
 
 ### Releases
-Release are made by ABI staff.
+Release are made by CVR staff.
 
 Additional notes:
 For deploying to production merge develop into master, and grab the latest build artifact from teamcity after it has been built.
@@ -33,25 +33,40 @@ For deploying to production merge develop into master, and grab the latest build
 
 We recommend previewing the site before submitting your PR.  To preview the site, follow the instructions below:
 
-### Install python, dependencies and mkdocs
+### Install python, poetry, and project dependencies
 
 #### Windows
 
-1. Install [CPython](https://python.org)
-2. Open a Terminal (cmd or powershell) in the docs folder
-3. Run `.\setup.bat`
+**Automatic:**
+
+1. Right-click the file `setup.ps1` and pick `Run with PowerShell`
+2. Look at the console to see if there were errors, if not, we're good :)
+
+---
+
+**Manual:**
+
+1. Install [Python](https://www.python.org/) `3.11`
+2. Install [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
+3. Install/Update the project packages by opening a Terminal in the repository's root folder, and running:
+   `poetry install --no-root`
 
 #### Linux
 
-1. Install python3
-2. Create a python venv & activate it
-3. `pip install -U poetry`
-4. `poetry install --no-root`
-
+1. Install python 3.11
+2. Install [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
+3. Run `poetry install --no-root` to install/update the packages
 
 ### Run local development server
 
-To run a local development server now, just run `.\serve.bat`
-or `mkdocs serve` if your directly within your venv
+**Windows**
+
+1. Run the [Windows Setup](#windows)
+2. Right-click the file `serve.ps1` and pick `Run with PowerShell`
+
+**Linux**
+
+1. Run the [Linux Setup](#linux)
+2. Run `poetry run mkdocs serve` on a Terminal in the project's root
 
 You now have a development server running at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)

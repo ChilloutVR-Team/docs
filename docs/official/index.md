@@ -1,5 +1,5 @@
 # Official
-This category contains official documents about ABI and our platform.
+This category contains official documents about CVR and our platform.
 
 ## Legal
 + [Rules, guidelines & ToS](legal/tos.md)
