@@ -9,5 +9,5 @@ nav:
     - Spawnable: spawnable
     - Components: components
     - Lua Scripting: lua
-    - Examples: examples
+    - Validations: validations.md
     - FAQ: faq.md
