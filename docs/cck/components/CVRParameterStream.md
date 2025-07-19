@@ -106,28 +106,9 @@ If you want to access the current viseme index, you can check the
 
 - None
 
-| Stream Type  | Param Type | Value Range     | Description                                                                 |
-|--------------|------------|-----------------|-----------------------------------------------------------------------------|
-| Viseme Level | Float      | [`0.0` … `1.0`] | Voice loudness or viseme index; [Loudness Values](#loudness-viseme-mapping) |
-
-#### Loudness Viseme Mapping
-
-| Viseme | Viseme Level Range  |
-|--------|---------------------|
-| sil    | [`0.000` … `0.071`] |
-| PP     | ]`0.071` … `0.143`] |
-| FF     | ]`0.143` … `0.214`] |
-| TH     | ]`0.214` … `0.286`] |
-| DD     | ]`0.286` … `0.357`] |
-| kk     | ]`0.357` … `0.429`] |
-| CH     | ]`0.429` … `0.500`] |
-| SS     | ]`0.500` … `0.571`] |
-| nn     | ]`0.571` … `0.643`] |
-| RR     | ]`0.643` … `0.714`] |
-| aa     | ]`0.714` … `0.786`] |
-| E      | ]`0.786` … `0.857`] |
-| ih     | ]`0.857` … `0.929`] |
-| oh     | [`0.929` … `1.000`] |
+| Stream Type  | Param Type | Value Range     | Description    |
+|--------------|------------|-----------------|----------------|
+| Viseme Level | Float      | [`0.0` … `1.0`] | Voice loudness |
 
 ---
 
@@ -272,13 +253,13 @@ these inputs set the values.
 
 - None
 
-| Stream Type          | Param Type | Value Range | Description                                  |
-|----------------------|------------|-------------|----------------------------------------------|
-| Input Car Steering   | Float      | [`?` … `?`] | Steering input from VR, keyboard, or gamepad |
-| Input Car Accelerate | Float      | [`?` … `?`] | Acceleration input                           |
-| Input Car Brake      | Float      | [`?` … `?`] | Brake input                                  |
-| Input Car Handbrake  | Float      | [`?` … `?`] | Handbrake input                              |
-| Input Car Boost      | Float      | [`?` … `?`] | Boost input                                  |
+| Stream Type          | Param Type | Value Range      | Description                                  |
+|----------------------|------------|------------------|----------------------------------------------|
+| Input Car Steering   | Float      | [`-1.0` … `1.0`] | Steering input from VR, keyboard, or gamepad |
+| Input Car Accelerate | Float      | [`0.0` … `1.0`]  | Acceleration input                           |
+| Input Car Brake      | Float      | [`0.0` … `1.0`]  | Brake input                                  |
+| Input Car Handbrake  | Float      | [`0.0` … `1.0`]  | Handbrake input                              |
+| Input Car Boost      | Float      | [`0.0` … `1.0`]  | Boost input                                  |
 
 ---
 

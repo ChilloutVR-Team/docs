@@ -83,4 +83,5 @@ You can get a reference for each viseme at:
 - Fist is analog (range from `0.0` to `1.0` depending on trigger press)
 - Rock n Roll also includes the flip-off gesture (flipping the bird)
 - Parameters are **case-sensitive**
-- Avoid overriding these with other animation drivers
+- You are unable to write to these parameters using any CCK component as they are considered readonly, but you can read them using the Animator Driver or Scripting API
+- Core Parameter types can be mismatched, e.g., you can define `AFK` as an int parameter instead of a bool in your animator, and it will be 0 or 1 depending on the AFK state
