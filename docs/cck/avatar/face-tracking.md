@@ -3,10 +3,10 @@ A GUI that features utilities for face tracking on avatars. This can be found as
 (**Alpha Blend Interactive** / **Modules** / **Face Tracking Utilities**)
 
 ##### Avatar
-Select your [CVR Avatar](../components/avatar.md) here.
+Select your [CVR Avatar](../components/cvr-avatar.md) here.
 
 ##### Add Face Tracking (Button)
-This will add a [CVR Face Tracking](../components/face-tracking.md) component to your avatar.
+This will add a [CVR Face Tracking](../components/cvr-face-tracking.md) component to your avatar.
 
 ## Blendshape Generator
 With this tab, you can generate face tracking blendshapes from existing ones.

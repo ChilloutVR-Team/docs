@@ -6,7 +6,7 @@ The following sections describe each validation, its severity, and any automatic
 
 ## Total Triangle Count
 
-`Severity: Info`
+<kbd>Severity: Info</kbd>
 
 Counts the total number of triangles (the basic polygons that make up your 3D meshes) on your content.
 
@@ -16,7 +16,7 @@ This is a soft limit to help you keep your content performant. Excessive triangl
 
 ## Total Material Slots
 
-`Severity: Info`
+<kbd>Severity: Info</kbd>
 
 Counts the total number of material slots in your content.
 
@@ -26,13 +26,13 @@ This is a soft limit to help you keep draw calls low. Each material slot generat
 
 ## Camera Missing Render Texture
 
-`Severity: Warning`
+<kbd>Severity: Warning</kbd>
 
 Finds any Camera component on an Avatar or Prop that has no assigned Render Texture. Cameras without a render target are removed on content load to prevent such content from drawing on top of the player camera.
 
 ## Potential Depth Light
 
-`Severity: Warning` `Autofix Available`
+<kbd>Severity: Warning</kbd> <kbd>Autofix Available</kbd>
 
 Detects directional lights that meet all of the following criteria:
 
@@ -48,23 +48,23 @@ In ChilloutVR the depth buffer is always provided so these lights are not needed
 
 ###### Autofix
 
-Destroys any detected depth‑forcing lights
-
-## Long Range Audio
-
-`Severity: Warning`
-
-Flags any AudioSource component set to 2D mode or with a maximum falloff distance greater than 15 meters. Long range audio sources can cause audio to remain audible when it should fade out, so your content will be tagged with a warning.
+Destroys any detected depth‑forcing lights.
 
 ## Loud Audio
 
-`Severity: Warning`
+<kbd>Severity: Warning</kbd>
 
 Identifies audio clips whose average volume exceeds –8dB. Clips above this level can clip or be uncomfortably loud. Your content will be tagged with Loud Audio if any audio clips exceed this threshold.
 
+## Long Range Audio
+
+<kbd>Severity: Warning</kbd>
+
+Flags any AudioSource component set to 2D mode or with a maximum falloff distance greater than 15 meters. Long range audio sources can cause audio to remain audible when it should fade out, so your content will be tagged with a warning.
+
 ## Potentially Non SPI Shaders
 
-`Severity: Warning`
+<kbd>Severity: Warning</kbd>
 
 Scans every shader for the four Unity stereo rendering macros:
 
@@ -83,13 +83,13 @@ For more information on SPI requirements, see Unity’s documentation on [Single
 
 ## Missing or Broken Shaders
 
-`Severity: Error`
+<kbd>Severity: Error</kbd>
 
 Finds materials using the built‑in error shader or shaders that failed to compile. Unity's error shader is not SPI compatible (only renders in one eye in VR). This blocks building until all shaders compile and no materials reference the error shader.
 
 ## Requires Streaming Mipmaps
 
-`Severity: Error` `Autofix Available`
+<kbd>Severity: Error</kbd> <kbd>Autofix Available</kbd>
 
 Ensures that every texture used by a MeshRenderer or SkinnedMeshRenderer has Streaming Mipmaps enabled. Unity uses mesh bounds and UVs from these components to determine which mip level to load at runtime. Without streaming, all mip levels are loaded which increases GPU memory usage and can reduce performance.
 
@@ -102,11 +102,11 @@ See the Unity documentation for more information:
 
 ###### Autofix
 
-Enables Streaming Mipmaps on textures used by MeshRenderer and SkinnedMeshRenderer components
+Enables Streaming Mipmaps on textures used by MeshRenderer and SkinnedMeshRenderer components.
 
 ## Unsupported Streaming Mipmaps
 
-`Severity: Warning` `Autofix Available`
+<kbd>Severity: Warning</kbd> <kbd>Autofix Available</kbd>
 
 Detects textures with Streaming Mipmaps enabled that are not used on supported renderer components. When used on particle systems or other components without mesh bounds and standard UVs, Unity cannot calculate the correct mip level and defaults to low-resolution mips. This results in blurry textures.
 
@@ -119,11 +119,11 @@ See the Unity documentation for more information:
 
 ###### Autofix
 
-Disables Streaming Mipmaps on textures used outside of supported renderers
+Disables Streaming Mipmaps on textures used outside of supported renderers.
 
 ## Texture Too Large
 
-`Severity: Error` `Autofix Available`
+<kbd>Severity: Error</kbd> <kbd>Autofix Available</kbd>
 
 Finds textures with import dimensions larger than `8192×8192` pixels. These textures are too large for practical use and can significantly increase memory usage. This validation blocks building until all oversized textures are addressed.
 
@@ -133,20 +133,20 @@ Clamps the texture’s import size to 8192 or lower without modifying the source
 
 ## Non Legacy Blendshape Normals
 
-`Severity: Error` `Autofix Available`
+<kbd>Severity: Error</kbd> <kbd>Autofix Available</kbd>
 
 Identifies meshes whose blendshape normals import mode is set to Calculate. Calculated normals greatly increase file size and can cause lighting artifacts when blendshapes are changing. This blocks building until the import mode is changed to Legacy or None.
 
 ###### Autofix
 
-Sets blendshape normals import mode to Legacy on affected meshes
+Sets blendshape normals import mode to Legacy on affected meshes.
 
 ## Missing Scripts
 
-`Severity: Error` `Autofix Available`
+<kbd>Severity: Error</kbd> <kbd>Autofix Available</kbd>
 
 Finds any GameObject with missing MonoBehaviour references. Missing scripts cause the build to fail. This blocks building until all missing references are removed.
 
 ###### Autofix
 
-Removes missing script components from affected GameObjects
+Removes missing script components from affected GameObjects.

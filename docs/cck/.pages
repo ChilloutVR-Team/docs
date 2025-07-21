@@ -2,12 +2,13 @@ title: CCK
 nav:
     - CCK: index.md
     - setup.md
-    - third-party-assets.md
     - Content Tags: content-tags.md
-    - Avatar: avatar
-    - World: world
-    - Spawnable: spawnable
+    - Avatars: avatar
+    - Worlds: world
+    - Props: spawnable
+    - State Behaviours: state-behaviours
     - Components: components
     - Lua Scripting: lua
+    - Shader Globals: shader-globals.md
     - Validations: validations.md
     - FAQ: faq.md
