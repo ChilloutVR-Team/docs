@@ -6,8 +6,8 @@ nav:
     - Avatars: avatar
     - Worlds: world
     - Props: spawnable
-    - State Behaviours: state-behaviours
     - Components: components
+    - State Behaviours: state-behaviours
     - Lua Scripting: lua
     - Shader Globals: shader-globals.md
     - Validations: validations.md

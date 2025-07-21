@@ -60,7 +60,6 @@ nav:
   - Force Applicator: force-applicator.md
   - FPR Exclusion: fpr-exclusion.md
   - Game Instance Controller: game-instance-controller.md
-  - Global Shader Updater: global-shader-updater.md
   - Gravity Zone: gravity-zone.md
   - Gun Controller: gun-controller.md
   - Object Health: object-health.md
