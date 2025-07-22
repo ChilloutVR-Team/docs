@@ -4,5 +4,5 @@ Thanks for your interest in spawnable / prop creation. Here you will find docume
 ## CCK Spawnable components
 We offer a wide range of default features along with CCK components that can be used on spawnables.
 
-- [CVR Asset Info](../components/CVRAssetInfo.md)
-- [CVR Spawnable](../components/CVRSpawnable.md)
+- [CVR Asset Info](../components/cvr-asset-info.md)
+- [CVR Spawnable](../components/cvr-spawnable.md)

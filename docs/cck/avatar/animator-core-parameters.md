@@ -4,7 +4,7 @@ Core Parameters are special Animator Parameters that are set automatically by th
 way to make your avatar react to game information without needing anything beyond adding and using them in the animator.
 
 If you're looking for more parameters, there is a component dedicated to write game information into animator 
-parameters. The name of the component is [CVRParameterStream](../components/CVRParameterStream.md).
+parameters. The name of the component is [CVRParameterStream](../components/cvr-parameter-stream.md).
 
 ---
 
