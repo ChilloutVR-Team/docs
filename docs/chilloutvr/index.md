@@ -4,7 +4,7 @@ user-content-driven multi-universe sandbox that can be played in VR and Desktop.
 Click on [Quick Start](quick-start.md) to get started with ChilloutVR!
 
 + [Quick Start](quick-start.md)
-+ [General Information](general)
-+ [Controls](controls)
-+ [Game](game)
-+ [FAQ](faq)
++ [General Information](general/index.md)
++ [Controls](controls/index.md)
++ [Game](game/index.md)
++ [FAQ](faq/index.md)

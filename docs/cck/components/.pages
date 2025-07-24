@@ -1,0 +1,78 @@
+nav:
+  - Combat System: combat-system.md
+  - Control Point: control-point.md
+  - CVR AAS Trigger: cvr-advanced-avatar-settings-trigger.md
+  - CVR Animator Driver: cvr-animator-driver.md
+  - CVR Asset Info: cvr-asset-info.md
+  - CVR Attachment: cvr-attachment.md
+  - CVR Audio Driver: cvr-audio-driver.md
+  - CVR Audio Material Parser: cvr-audio-material-parser.md
+  - CVR Avatar: cvr-avatar.md
+  - CVR Avatar Pickup Marker: cvr-avatar-pickup-marker.md
+  - CVR Blitter: cvr-blitter.md
+  - CVR Blitter Controller: cvr-blitter-controller.md
+  - CVR Camera Helper: cvr-camera-helper.md
+  - CVR Canvas Wrapper: cvr-canvas-wrapper.md
+  - CVR Custom Render Texture Updater: cvr-custom-render-texture-updater.md
+  - CVR Damage Raycaster: cvr-damage-raycaster.md
+  - CVR Distance Constrain: cvr-distance-constrain.md
+  - CVR Distance LOD: cvr-distance-lod.md
+  - CVR Face Tracking: cvr-face-tracking.md
+  - CVR GI Material Updater: cvr-gi-material-updater.md
+  - CVR Global Material Property Updater: cvr-global-material-property-updater.md
+  - CVR Global Shader Updater: cvr-global-shader-updater.md
+  - CVR Haptic Area Chest: cvr-haptic-area-chest.md
+  - CVR Haptic Zone: cvr-haptic-zone.md
+  - CVR IK Angle Limit: cvr-ik-angle-limit.md
+  - CVR IK Hinge Limit: cvr-ik-hinge-limit.md
+  - CVR Input Field Keyboard Handler: cvr-input-field-keyboard-handler.md
+  - CVR Interactable: cvr-interactable.md
+  - CVR Leg: cvr-leg.md
+  - CVR Line Renderer Helper: cvr-line-renderer-helper.md
+  - CVR LTCGI Adapter: cvr-ltcgi-adapter.md
+  - CVR Lua Client Behaviour: cvr-lua-client-behaviour.md
+  - CVR Material Driver: cvr-material-driver.md
+  - CVR Material Updater: cvr-material-updater.md
+  - CVR Mirror: cvr-mirror.md
+  - CVR Movement Driver: cvr-movement-driver.md
+  - CVR Movement Parent: cvr-movement-parent.md
+  - CVR Nav Controller: cvr-nav-controller.md
+  - CVR Object Sync: cvr-object-sync.md
+  - CVR Parameter Stream: cvr-parameter-stream.md
+  - CVR Particle Sound: cvr-particle-sound.md
+  - CVR Pickup Object: cvr-pickup-object.md
+  - CVR Pointer: cvr-pointer.md
+  - CVR Portal Marker: cvr-portal-marker.md
+  - CVR Shared Physics Controller: cvr-shared-physics-controller.md
+  - CVR Skybox Manipulator: cvr-skybox-manipulator.md
+  - CVR Snapping Point: cvr-snapping-point.md
+  - CVR Spawnable: cvr-spawnable.md
+  - CVR Spawnable Trigger: cvr-spawnable-trigger.md
+  - CVR Texture Property Parser: cvr-texture-property-parser.md
+  - CVR Toggle State Trigger: cvr-toggle-state-trigger.md
+  - CVR Variable Buffer: cvr-variable-buffer.md
+  - CVR Video Player: cvr-video-player.md
+  - CVR Wheel Controller: cvr-wheel-controller.md
+  - CVR Wheel Hub Controller: cvr-wheel-hub-controller.md
+  - CVR World: cvr-world.md
+  - Damage: damage.md
+  - Fluid Volume: fluid-volume.md
+  - Force Applicator: force-applicator.md
+  - FPR Exclusion: fpr-exclusion.md
+  - Game Instance Controller: game-instance-controller.md
+  - Gravity Zone: gravity-zone.md
+  - Gun Controller: gun-controller.md
+  - Object Health: object-health.md
+  - Physics Influencer: physics-influencer.md
+  - Score Board Controller: score-board-controller.md
+  - Spawnable Pickup Marker: spawnable-pickup-marker.md
+  - Deprecated Components:
+      - CVR Action: cvr-action.md
+      - CVR AAS Pointer: cvr-advanced-avatar-settings-pointer.md
+      - CVR Builder Spawnable: cvr-builder-spawnable.md
+      - CVR Object Library: cvr-object-library.md
+      - CVR Timeline Sync: cvr-timeline-sync.md
+      - CVR Toggle State Pointer: cvr-toggle-state-pointer.md
+      - CVR Warp Point: cvr-warp-point.md
+      - CVR World Modifiers: cvr-world-modifiers.md
+      - Player Material Parser: player-material-parser.md

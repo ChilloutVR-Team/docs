@@ -69,10 +69,10 @@ List of whitelisted components and link to their corresponding Unity documentati
 ## CVR Components
 A list of all whitelisted components for avatars.
 
-+ [CVR Haptic Chest Area](../components/haptic-chest-area.md)
-+ [CVR Toggle State Trigger](../components/state-trigger.md)
-+ [CVR Advanced Avatar Trigger](../components/aas-trigger.md)
-+ [CVR Pointer](../components/CVRPointer.md)
-+ [CVR Skybox Manipulator](../components/skybox-manipulator.md)
-+ [CVR Avatar](../components/CVRAvatar.md)
-+ [CVR Asset Info](../components/CVRAssetInfo.md)
++ [CVR Avatar](../components/cvr-avatar.md)
++ [CVR Asset Info](../components/cvr-asset-info.md)
++ [CVR Haptic Area Chest](../components/cvr-haptic-area-chest.md)
++ [CVR Toggle State Trigger](../components/cvr-toggle-state-trigger.md)
++ [CVR Advanced Avatar Trigger](../components/cvr-advanced-avatar-settings-trigger.md)
++ [CVR Pointer](../components/cvr-pointer.md)
++ [CVR Skybox Manipulator](../components/cvr-skybox-manipulator.md)
