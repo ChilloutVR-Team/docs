@@ -11,7 +11,7 @@ The Zone configuration section includes basic settings for the size, orientation
 
 __Zone Shape -__
 
-A dropdown that defines the shape of the gravity zone. it has the following oprions:
+A dropdown that defines the shape of the gravity zone. it has the following options:
 
 - Box
 
