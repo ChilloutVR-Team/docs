@@ -3,3 +3,4 @@ nav:
     - Game: index.md
     - OSC: osc.md
     - Launch Arguments: launch-arguments.md
+    - Deeplink: deep-link.md
