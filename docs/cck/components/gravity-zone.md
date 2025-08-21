@@ -131,6 +131,8 @@ This dropdown selects the method by which the Gravity Zone reorients the player 
 
 ### Editor Gizmos
 
+![editor-gizmos.png](images/gravity-zone/editor-gizmos.png)
+
 This section contains options for the editor-only visualizations.
 
 __Draw Gismos__
