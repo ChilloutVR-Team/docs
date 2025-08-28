@@ -40,14 +40,18 @@ __Fluid Angular Drag__- coefficient of drag of submerged portion while turning
 
 ![local-gravity.png](images/physics-influencer/local-gravity.png)
 
-__Force Align Upright__- forces the player into upright relative to the direction of gravity instantly.
+__Force Align Upright__- forces the object into upright relative to the direction of gravity instantly.
 
-__Gravity Factor__- TBA
+__Gravity Factor__- multiplier for uprighting force based on current experienced gravity.
 
-__Gentle Align Upright__- Applies a force to the player to turn them upright relative to the direction of gravity.
+__Gentle Align Upright__- Applies a force to the object to turn them upright relative to the direction of gravity.
 
-__Gentle Align Speed__- Speed at which the player is returned to the aligned orientation.
+__Gentle Align Speed__- Speed at which the object is returned to the aligned orientation.
 
-__Gentle Align Stability__- TBA
+__Gentle Align Stability__- this value is divided by the gentle align speed (with a floor of .0.1), dampening the object's uprighting motion.
 
-__Gentle Align Axis__- TBA
+__Gentle Align Axis__- a torque applied around the local X, Y, or Z axis.
+
+## Examples
+
+There are currently no examples. If you'd like to add one, please contribute! Community contributions can be submitted to our [Documentation Github](https://github.com/ChilloutVR-Team/docs).

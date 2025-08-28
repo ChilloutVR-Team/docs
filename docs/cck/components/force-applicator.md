@@ -21,3 +21,7 @@ Force applied in newton-meters.
 __Only While Submerged__
 
 While active, only allows the applicator to produce a force while the GameObeject its attached to is submerged.
+
+## Examples
+
+There are currently no examples. If you'd like to add one, please contribute! Community contributions can be submitted to our [Documentation Github](https://github.com/ChilloutVR-Team/docs).
