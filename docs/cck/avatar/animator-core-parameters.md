@@ -41,15 +41,16 @@ parameters. The name of the component is [CVRParameterStream](../components/cvr-
 
 ## Gesture Values
 
-| Gesture     | Float Value | Int Value |
-|-------------|-------------|-----------|
-| Open Hand   | -1.0        | -1        |
-| Fist        | [0.0 … 1.0] | 0         |
-| Thumbs Up   | 2.0         | 2         |
-| Gun         | 3.0         | 3         |
-| Point       | 4.0         | 4         |
-| Peace       | 5.0         | 5         |
-| Rock n Roll | 6.0         | 6         |
+| Gesture     | Float Value  | Int Value |
+|-------------|--------------|-----------|
+| Open Hand   | -1.0         | -1        |
+| Neutral     | [0.0 … 0.01[ | 0         |
+| Fist        | [0.01 … 1.0] | 1         |
+| Thumbs Up   | 2.0          | 2         |
+| Gun         | 3.0          | 3         |
+| Point       | 4.0          | 4         |
+| Peace       | 5.0          | 5         |
+| Rock n Roll | 6.0          | 6         |
 
 ---
 
