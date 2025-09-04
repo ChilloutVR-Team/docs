@@ -11,7 +11,7 @@ We also provide a function to retrieve the `Public` bin for other content by pro
 bin will be limited to read only functions.
 
 The bin files are stored
-on `%UserProfile%\AppData\LocalLow\Alpha Blend Interactive\ChilloutVR\Persistence\<user_id>\<content_type>\<content_id>\`
+on `%UserProfile%\AppData\LocalLow\ChilloutVR\ChilloutVR\Persistence\<user_id>\<content_type>\<content_id>\`
 
 ### Bin Size Limits
 
