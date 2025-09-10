@@ -1,5 +1,27 @@
 # Force Applicator <div class="whitelisted" data-list="WP"></div>
 
-!!! abstract "Missing Documentation :("
-    This component is not documented yet. A page has been created to ensure the CCK does not 404 linking to it.
-    If you want to help, please open an issue or a pull request on the [GitHub repository](https://github.com/ChilloutVR-Team/docs).
+The Force Applicator is a relatively simple component that applies a force along a local vector while active.
+
+## UI
+
+![force-applicator.png](images/force-applicator/default-ui.png)
+
+__Target__
+
+The Rigidbody the force applies to
+
+__Force Vector__
+
+the vector from which the force is applied, with separate fields for the (local) X, Y, and Z axes.
+
+__Strength__
+
+Force applied in newton-meters.
+
+__Only While Submerged__
+
+While active, only allows the applicator to produce a force while the GameObeject its attached to is submerged.
+
+## Examples
+
+There are currently no examples. If you'd like to add one, please contribute! Community contributions can be submitted to our [Documentation Github](https://github.com/ChilloutVR-Team/docs).
