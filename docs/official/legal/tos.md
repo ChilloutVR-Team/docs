@@ -53,7 +53,7 @@ For general support requests, technical issues, or any other inquiries, reach ou
 
 - **§2.8** You may never bypass mature content limitations in any way whatsoever.
 
-- **§2.9** Uploaded content may never contain [adult-only/explicit](content-classification.md) materials referencing underaged characters (canonically, realistically or visually under 18 years of age).
+- **§2.9** Uploaded content may never contain any CSAM.
 
 - **§2.10** You may never play any form of [adult-only/explicit](content-classification.md) material on a video player in an instance considered to be public.
 
