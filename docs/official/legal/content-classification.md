@@ -49,6 +49,6 @@ Explicit was formerly known as nudity in our Systems and documentation.
     - Tape
 
 !!! warning "Tag Locked"
-Content tagged as explicit is locked behind the [Mature Content Access DLC](../../chilloutvr/faq/mature-content-access-dlc.md) which is free
-on steam.
+    Content tagged as explicit is locked behind the [Mature Content Access DLC](../../chilloutvr/faq/mature-content-access-dlc.md) which is free
+    on steam.
 
