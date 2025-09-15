@@ -3,6 +3,7 @@ This category contains official documents about CVR and our platform.
 
 ## Legal
 + [Rules, guidelines & ToS](legal/tos.md)
++ [Content Classification](legal/content-classification.md)
 + [Privacy Policy](legal/privacy-policy.md)
   
 ## Platform

@@ -114,25 +114,6 @@ Use this tag if your avatar or spawnable/prop is very small.
 Just like [Excessively Small](#excessively-small), but the other way around. If your avatar or spawnable/prop is very huge.
 
 ## Age Gate Classification
-This tag category is used to classify suggestive and nudity.
+This tag category is used to classify suggestive and explicit.
 
-### Suggestive
-The Suggestive Tag must be used whenever there is large amounts of visible skin or a sexually suggestive pose or animation.
-
-Including but not limited to:
-
-- Bikini or Swimsuit outfits
-
-### Nudity
-The Nudity tag is to be applied to all content not to be seen by children. It is mainly meant for sexual appealing content.
-
-Including but not limited to:
-
-- Genitals
-- Nipples
-- Ass without pants
-- Sex toys
-
-!!! warning "Tag Locked"
-    This tag is locked behind the [Mature Content Access DLC](../chilloutvr/faq/mature-content-access-dlc.md) which is free
-    on steam.
+The content classification for suggestive/explicit(formerly nudity) is outlined in our [content classifications](../official/legal/content-classification.md)
