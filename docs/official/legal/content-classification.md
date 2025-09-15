@@ -1,7 +1,7 @@
 # Content Classification
 This page outlines what kinds of content we deem to fall under the "Suggestive" or "adult-only/explicit" classification outlined in our ToS.
 
-Avatars with fur, scales and/or robots which don't war any clothes and don't feature any special attention towards the primary and secondary sex characteristics are not considered in a state of undress. If they wear clothing, the uncovered parts may not feature any attention towards the primary and secondary sex characteristics, or they will fall under the rules outlined below.
+Avatars with fur, scales and/or robots which don't wear any clothes and don't feature any special attention towards the primary and secondary sex characteristics are not considered in a state of undress. If they wear clothing, the uncovered parts may not feature any attention towards the primary and secondary sex characteristics, or they will fall under the rules outlined below.
 
 Explicit was formerly known as nudity in our Systems and documentation.
 

@@ -83,7 +83,7 @@ For general support requests, technical issues, or any other inquiries, reach ou
 
 - **§4.4** Extracting, using and/or publishing any of our code is strictly forbidden and will be considered theft.
   - **§4.4.1** You may never use code obtained by decompiling our products to create derivative work or other products from it without explicit written permission. We do not allow any of our work to be implemented in external third-party products.
-  - **§4.4.1** Exceptions are permitted so long as extracted code is necessary for modification and patching of our product, specifically ChilloutVR, that adhere to all terms outlined in section **6 - Modding Our Game**.
+  - **§4.4.2** Exceptions are permitted so long as extracted code is necessary for modification and patching of our product, specifically ChilloutVR, that adhere to all terms outlined in section **6 - Modding Our Game**.
 
 ### 5 - Creating, Uploading and Publishing Content
 - **§5.1** When creating content for our platform - regardless of content type - all rules regarding social interactions (§2.X) also apply.
