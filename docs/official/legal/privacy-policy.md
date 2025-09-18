@@ -120,7 +120,7 @@ We may preserve, use, or disclose your personal data if we believe it is reasona
 ##### Understanding your rights
 
 It is important that you understand your legal rights around your personal data and how we may use it. If you would like
-to discuss or exercise any of these rights, please contact our Data Controller at office@abinteractive.net
+to discuss or exercise any of these rights, please contact our Data Controller at team@chilloutvr.net
 
 ##### Right to be informed
 
@@ -191,6 +191,6 @@ these changes on our website.
 
 ## (10) Contacting us
 
-If you have any questions about this Privacy Policy, please contact us by sending e-mail to office@abinteractive.net.
+If you have any questions about this Privacy Policy, please contact us by sending e-mail to team@chilloutvr.net.
 Please note that information you submit through e-mail may not be secure; so please do not include credit card
 information or other sensitive information in your messages to us.
