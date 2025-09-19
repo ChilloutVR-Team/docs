@@ -7,7 +7,6 @@ Components included as part of the Content Creation Kit.
 
 + [CVR Asset Info](../components/cvr-asset-info.md)
 + [CVR Attachment](../components/cvr-attachment.md)
-+ [CVR Avatar](../components/cvr-avatar.md)
 + [CVR Canvas Wrapper](../components/cvr-canvas-wrapper.md)
 + [CVR Damage Raycaster](../components/cvr-damage-raycaster.md)
 + [CVR Global Material Property Updater](../components/cvr-global-material-property-updater.md)
