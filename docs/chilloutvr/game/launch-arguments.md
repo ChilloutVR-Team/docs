@@ -12,7 +12,7 @@ This page describes the launch parameters that can be passed to the application 
 | `--force-openxr`                     | Forces the use of OpenXR for VR                               | This only affects the game when using VR         |
 | `--no-steam`                         | Skips Steam API initialization                                |                                                  |
 | `--safe-mode`                        | Loads the game into the default world (Hub) and avatar (kyle) | Also disables OSC                                |
-| `--login-profile=<name>`             | Profile to save/load the autologin profile file               | Allows switching accounts without logging in/out |
+| `--profile=<name>`                   | Profile to save/load the autologin profile file               | Allows switching accounts without logging in/out |
 | `--affinity=<mask>`                  | Allows to set which cores the game should use to run          | [More Info](#-affinitymask)                      |
 | `--content-cache-path=<path>`        | Overrides the content cache directory                         | [More Info](#-content-cache-pathpath)            |
 | `--allow-aggressive-memory-clearing` | Forces memory RAM releasing when content is unloaded          | [More Info](#-allow-aggressive-memory-clearing)  |
