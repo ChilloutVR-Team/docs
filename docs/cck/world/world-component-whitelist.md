@@ -222,7 +222,7 @@ Components included as part of the Unity Engine.
 - [WindZone](https://docs.unity3d.com/Manual/class-WindZone.html)
 
 ## Third Party Assets
-The following components are third party assets that are available in the Unity Asset Store. You must first purchase and import these assets into your project if you wish to use them in ChilloutVR.
+The following components are third party assets that are available in the Unity Asset Store. You must first purchase / download and import these assets into your project if you wish to use them in ChilloutVR.
 
 When using third-party assets, you are not uploading them with your content, but rather referencing them in your project. 
 The same asset version must be shipped within the ChilloutVR client for it to work correctly. 
@@ -331,6 +331,26 @@ Realistic, dynamic clouds.
 ### [Modern Procedural UI Kit](https://assetstore.unity.com/packages/tools/gui/modern-procedural-ui-kit-163041)
 Modern Procedural UI Kit offers unlimited possibilities for building UI without any sprite assets but customizable shapes
 and gradients.
+
+### [Steam Audio](https://valvesoftware.github.io/steam-audio/)
+Advanced spatial audio soution made by Valve Software. Allows for realtime sound propagation, baked propagation, occulions, reflections, and physics based ambisonics.
+
+!!! warning
+    The steam audio project settings file will not get included in world uploads. 
+    Editing this file can cause audio preview in unity editor to be sound different in game.
+
+!!! note
+    Steam audio manager is setup for the user by steam audio and does not need to be manually added.
+
+- [Steam Audio Ambisonic Source](https://valvesoftware.github.io/steam-audio/doc/unity/ambisonic-source.html)
+- [Steam Audio Baked Listener](https://valvesoftware.github.io/steam-audio/doc/unity/baked-listener.html)
+- [Steam Audio Baked Source](https://valvesoftware.github.io/steam-audio/doc/unity/baked-source.html)
+- [Steam Audio Dynamic Object](https://valvesoftware.github.io/steam-audio/doc/unity/dynamic-object.html)
+- [Steam Audio Geometry](https://valvesoftware.github.io/steam-audio/doc/unity/geometry.html)
+- [Steam Audio Listener](https://valvesoftware.github.io/steam-audio/doc/unity/listener.html)
+- [Steam Audio Source](https://valvesoftware.github.io/steam-audio/doc/unity/source.html)
+- [Steam Audio Static Mesh](https://valvesoftware.github.io/steam-audio/doc/unity/static-mesh.html)
+- [Steam Audio Probe Batch](https://valvesoftware.github.io/steam-audio/doc/unity/probe-batch.html)
 
 ## Deprecated
 
