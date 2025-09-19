@@ -1,4 +1,4 @@
-# CVR Avatar <div class="whitelisted" data-list="A"></div>
+# CVR Avatar <div class="whitelisted" data-list="AP"></div>
 This component is the main component for your avatar, it features various settings and vaiables relevant for your 
 avatar, you attach this component to the root gameobject of your avatar.
 
