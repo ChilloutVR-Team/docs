@@ -66,6 +66,15 @@ List of whitelisted components and link to their corresponding Unity documentati
 + [Magica Sphere Collider](https://magicasoft.jp/en/magica-cloth-sphere-collider-2/)
 + [Magica Capsule Collider](https://magicasoft.jp/en/magica-cloth-capsule-collider-2/)
 
+### [Steam Audio](https://valvesoftware.github.io/steam-audio/)
+**Steam Audio** is a third party asset. Whitelisted components listed below.
+
+!!! note
+    Changing the steam audio project settings can alter how a avatar sound sounds during testing. Those changes will not be reflected in game after upload.
+
+- [Steam Audio Ambisonic Source](https://valvesoftware.github.io/steam-audio/doc/unity/ambisonic-source.html)
+- [Steam Audio Source](https://valvesoftware.github.io/steam-audio/doc/unity/source.html)
+
 ## CVR Components
 A list of all whitelisted components for avatars.
 

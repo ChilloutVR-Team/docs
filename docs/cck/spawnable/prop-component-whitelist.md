@@ -208,3 +208,12 @@ MagicaCloth2 is a cloth simulation system that can be used with both Transform a
 - [Magica Plane Collider](https://magicasoft.jp/en/magica-cloth-plane-collider-2/)
 - [Magica Sphere Collider](https://magicasoft.jp/en/magica-cloth-sphere-collider-2/)
 - [Magica Capsule Collider](https://magicasoft.jp/en/magica-cloth-capsule-collider-2/)
+
+### [Steam Audio](https://valvesoftware.github.io/steam-audio/)
+Advanced spatial audio soution made by Valve Software. Allows for realtime sound propagation, baked propagation, occulions, reflections, and physics based ambisonics.
+
+!!! note
+    Changing the steam audio project settings can alter how a prop sound sounds during testing. Those changes will not be reflected in game after upload.
+
+- [Steam Audio Ambisonic Source](https://valvesoftware.github.io/steam-audio/doc/unity/ambisonic-source.html)
+- [Steam Audio Source](https://valvesoftware.github.io/steam-audio/doc/unity/source.html)
