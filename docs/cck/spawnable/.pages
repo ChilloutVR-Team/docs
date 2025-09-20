@@ -1,0 +1,4 @@
+title: Props
+nav:
+    - index: index.md
+    - Prop Components Whitelist: prop-component-whitelist.md

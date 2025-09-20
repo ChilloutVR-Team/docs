@@ -1,10 +1,10 @@
 # Prop Creation
-Thanks for your interest in prop / spawnable creation. Here you will find documentation about all features and components we offer by default.
+Welcome to the prop documention. Here you will find documentation about prop features, short guides, and avalible components.
 
-## CCK Prop Required Components
+## Required Components
 Props use these required components to define asset info and behaviour and settings.
 !!! note
-    CVR Asset Info is automatically added when CVR Spanwable if it is not present.
+    CVR Asset Info is automatically added when CVR Spawnable is added if asset info is not present.
 
 - [CVR Asset Info](../components/cvr-asset-info.md)
 - [CVR Spawnable](../components/cvr-spawnable.md)

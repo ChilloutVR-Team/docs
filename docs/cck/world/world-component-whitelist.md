@@ -5,8 +5,6 @@ This page lists all components that are whitelisted for use in worlds.
 ## CCK Components
 Components included as part of the Content Creation Kit.
 
-+ [Combat System](../components/combat-system.md)
-+ [Control Point](../components/control-point.md)
 + [CVR Animator Driver](../components/cvr-animator-driver.md)
 + [CVR Asset Info](../components/cvr-asset-info.md)
 + [CVR Attachment](../components/cvr-attachment.md)
@@ -54,6 +52,8 @@ Components included as part of the Content Creation Kit.
 + [CVR Wheel Hub Controller](../components/cvr-wheel-hub-controller.md)
 + [CVR World](../components/cvr-world.md)
 + [Damage](../components/damage.md)
++ [Combat System](../components/combat-system.md)
++ [Control Point](../components/control-point.md)
 + [Fluid Volume](../components/fluid-volume.md)
 + [Force Applicator](../components/force-applicator.md)
 + [Game Instance Controller](../components/game-instance-controller.md)
@@ -61,7 +61,6 @@ Components included as part of the Content Creation Kit.
 + [Gun Controller](../components/gun-controller.md)
 + [Object Health](../components/object-health.md)
 + [Physics Influencer](../components/physics-influencer.md)
-+ [Player Material Parser](../components/player-material-parser.md)
 + [Score Board Controller](../components/score-board-controller.md)
 + [Spawnable Pickup Marker](../components/spawnable-pickup-marker.md)
 
@@ -74,151 +73,151 @@ All the state behaviours that are usable in worlds.
 ## Unity Components
 Components included as part of the Unity Engine.
 
+- [AimConstraint](https://docs.unity3d.com/Manual/class-AimConstraint.html)
+- [AnchoredJoint2D](https://docs.unity3d.com/Manual/class-AnchoredJoint2D.html)
+- [Animation](https://docs.unity3d.com/Manual/class-Animation.html)
+- [Animator](https://docs.unity3d.com/Manual/class-Animator.html)
+- [AreaEffector2D](https://docs.unity3d.com/Manual/class-AreaEffector2D.html)
+- [ArticulationBody](https://docs.unity3d.com/Manual/class-ArticulationBody.html)
+- [AspectRatioFitter](https://docs.unity3d.com/Manual/script-AspectRatioFitter.html)
+- [AudioChorusFilter](https://docs.unity3d.com/Manual/class-AudioChorusFilter.html)
+- [AudioDistortionFilter](https://docs.unity3d.com/Manual/class-AudioDistortionFilter.html)
+- [AudioEchoFilter](https://docs.unity3d.com/Manual/class-AudioEchoFilter.html)
+- [AudioHighPassFilter](https://docs.unity3d.com/Manual/class-AudioHighPassFilter.html)
+- [AudioLowPassFilter](https://docs.unity3d.com/Manual/class-AudioLowPassFilter.html)
+- [AudioReverbFilter](https://docs.unity3d.com/Manual/class-AudioReverbFilter.html)
+- [AudioReverbZone](https://docs.unity3d.com/Manual/class-AudioReverbZone.html)
+- [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html)
+- [BaseMeshEffect](https://docs.unity3d.com/Manual/script-BaseMeshEffect.html)
+- [BaseRaycaster](https://docs.unity3d.com/Manual/class-BaseRaycaster.html)
+- [BillboardRenderer](https://docs.unity3d.com/Manual/class-BillboardRenderer.html)
+- [BoxCollider2D](https://docs.unity3d.com/Manual/class-BoxCollider2D.html)
+- [BoxCollider](https://docs.unity3d.com/Manual/class-BoxCollider.html)
+- [BuoyancyEffector2D](https://docs.unity3d.com/Manual/class-BuoyancyEffector2D.html)
+- [Button](https://docs.unity3d.com/Manual/script-Button.html)
+- [Camera](https://docs.unity3d.com/Manual/class-Camera.html)
+- [CanvasGroup](https://docs.unity3d.com/Manual/class-CanvasGroup.html)
+- [CanvasRenderer](https://docs.unity3d.com/Manual/class-CanvasRenderer.html)
+- [CanvasScaler](https://docs.unity3d.com/Manual/script-CanvasScaler.html)
+- [Canvas](https://docs.unity3d.com/Manual/class-Canvas.html)
+- [CapsuleCollider2D](https://docs.unity3d.com/Manual/class-CapsuleCollider2D.html)
+- [CapsuleCollider](https://docs.unity3d.com/Manual/class-CapsuleCollider.html)
+- [CharacterController](https://docs.unity3d.com/Manual/class-CharacterController.html)
+- [CharacterJoint](https://docs.unity3d.com/Manual/class-CharacterJoint.html)
+- [CircleCollider2D](https://docs.unity3d.com/Manual/class-CircleCollider2D.html)
+- [Cloth](https://docs.unity3d.com/Manual/class-Cloth.html)
+- [Collider2D](https://docs.unity3d.com/Manual/class-Collider2D.html)
+- [Collider](https://docs.unity3d.com/Manual/class-Collider.html)
+- [CompositeCollider2D](https://docs.unity3d.com/Manual/class-CompositeCollider2D.html)
+- [ConfigurableJoint](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html)
+- [ConstantForce2D](https://docs.unity3d.com/Manual/class-ConstantForce2D.html)
+- [ConstantForce](https://docs.unity3d.com/Manual/class-ConstantForce.html)
+- [ContentSizeFitter](https://docs.unity3d.com/Manual/script-ContentSizeFitter.html)
+- [CustomCollider2D](https://docs.unity3d.com/Manual/class-CustomCollider2D.html)
+- [DistanceJoint2D](https://docs.unity3d.com/Manual/class-DistanceJoint2D.html)
+- [Dropdown](https://docs.unity3d.com/Manual/script-Dropdown.html)
+- [EdgeCollider2D](https://docs.unity3d.com/Manual/class-EdgeCollider2D.html)
+- [Effector2D](https://docs.unity3d.com/Manual/class-Effector2D.html)
+- [EventTrigger](https://docs.unity3d.com/Manual/script-EventTrigger.html)
+- [FixedJoint2D](https://docs.unity3d.com/Manual/class-FixedJoint2D.html)
+- [FixedJoint](https://docs.unity3d.com/Manual/class-FixedJoint.html)
+- [FlareLayer](https://docs.unity3d.com/Manual/class-FlareLayer.html)
+- [FrictionJoint2D](https://docs.unity3d.com/Manual/class-FrictionJoint2D.html)
+- [GraphicRaycaster](https://docs.unity3d.com/Manual/script-GraphicRaycaster.html)
+- [Graphic](https://docs.unity3d.com/Manual/script-Graphic.html)
+- [GridLayoutGroup](https://docs.unity3d.com/Manual/script-GridLayoutGroup.html)
+- [GridLayout](https://docs.unity3d.com/Manual/class-GridLayout.html)
+- [Grid](https://docs.unity3d.com/Manual/class-Grid.html)
+- [HingeJoint2D](https://docs.unity3d.com/Manual/class-HingeJoint2D.html)
+- [HingeJoint](https://docs.unity3d.com/Manual/class-HingeJoint.html)
+- [HorizontalLayoutGroup](https://docs.unity3d.com/Manual/script-HorizontalLayoutGroup.html)
+- [HorizontalOrVerticalLayoutGroup](https://docs.unity3d.com/Manual/script-HorizontalOrVerticalLayoutGroup.html)
+- [Image](https://docs.unity3d.com/Manual/script-Image.html)
+- [InputField](https://docs.unity3d.com/Manual/script-InputField.html)
+- [Joint2D](https://docs.unity3d.com/Manual/class-Joint2D.html)
+- [Joint](https://docs.unity3d.com/Manual/class-Joint.html)
+- [LODGroup](https://docs.unity3d.com/Manual/class-LODGroup.html)
+- [LayoutElement](https://docs.unity3d.com/Manual/script-LayoutElement.html)
+- [LayoutGroup](https://docs.unity3d.com/Manual/script-LayoutGroup.html)
+- [LensFlare](https://docs.unity3d.com/Manual/class-LensFlare.html)
+- [Light2DBase](https://docs.unity3d.com/Manual/class-Light2DBase.html)
+- [LightProbeGroup](https://docs.unity3d.com/Manual/class-LightProbeGroup.html)
+- [LightProbeProxyVolume](https://docs.unity3d.com/Manual/class-LightProbeProxyVolume.html)
+- [Light](https://docs.unity3d.com/Manual/class-Light.html)
+- [LineRenderer](https://docs.unity3d.com/Manual/class-LineRenderer.html)
+- [LookAtConstraint](https://docs.unity3d.com/Manual/class-LookAtConstraint.html)
+- [Mask](https://docs.unity3d.com/Manual/script-Mask.html)
+- [MaskableGraphic](https://docs.unity3d.com/Manual/script-MaskableGraphic.html)
+- [MeshCollider](https://docs.unity3d.com/Manual/class-MeshCollider.html)
+- [MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)
+- [MeshRenderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)
+- [NavMeshAgent](https://docs.unity3d.com/2021.3/Documentation/Manual/class-NavMeshAgent.html)
+- [NavMeshObstacle](https://docs.unity3d.com/2021.3/Documentation/ScriptReference/AI.NavMeshObstacle.html)
+- [OcclusionArea](https://docs.unity3d.com/Manual/class-OcclusionArea.html)
+- [OcclusionPortal](https://docs.unity3d.com/Manual/class-OcclusionPortal.html)
+- [OffMeshLink](https://docs.unity3d.com/2021.3/Documentation/Manual/class-OffMeshLink.html)
+- [Outline](https://docs.unity3d.com/Manual/script-Outline.html)
+- [PanelEventHandler](https://docs.unity3d.com/Manual/class-PanelEventHandler.html)
+- [PanelRaycaster](https://docs.unity3d.com/Manual/class-PanelRaycaster.html)
+- [ParentConstraint](https://docs.unity3d.com/Manual/class-ParentConstraint.html)
+- [ParticleSystemForceField](https://docs.unity3d.com/Manual/class-ParticleSystemForceField.html)
+- [ParticleSystemRenderer](https://docs.unity3d.com/Manual/class-ParticleSystemRenderer.html)
+- [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html)
+- [Physics2DRaycaster](https://docs.unity3d.com/Manual/class-Physics2DRaycaster.html)
+- [PhysicsRaycaster](https://docs.unity3d.com/Manual/class-PhysicsRaycaster.html)
+- [PhysicsUpdateBehaviour2D](https://docs.unity3d.com/Manual/class-PhysicsUpdateBehaviour2D.html)
+- [PlatformEffector2D](https://docs.unity3d.com/Manual/class-PlatformEffector2D.html)
+- [PointEffector2D](https://docs.unity3d.com/Manual/class-PointEffector2D.html)
+- [PolygonCollider2D](https://docs.unity3d.com/Manual/class-PolygonCollider2D.html)
+- [PositionAsUV1](https://docs.unity3d.com/Manual/script-PositionAsUV1.html)
+- [PositionConstraint](https://docs.unity3d.com/Manual/class-PositionConstraint.html)
 - [PostProcessDebug](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/api/UnityEngine.Rendering.PostProcessing.PostProcessDebug.html)
 - [PostProcessLayer](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/api/UnityEngine.Rendering.PostProcessing.PostProcessLayer.html)
 - [PostProcessVolume](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/api/UnityEngine.Rendering.PostProcessing.PostProcessVolume.html)
-- [NavMeshAgent](https://docs.unity3d.com/2021.3/Documentation/Manual/class-NavMeshAgent.html)
-- [NavMeshObstacle](https://docs.unity3d.com/2021.3/Documentation/ScriptReference/AI.NavMeshObstacle.html)
-- [OffMeshLink](https://docs.unity3d.com/2021.3/Documentation/Manual/class-OffMeshLink.html)
-- [Animation](https://docs.unity3d.com/Manual/class-Animation.html)
-- [Animator](https://docs.unity3d.com/Manual/class-Animator.html)
-- [AimConstraint](https://docs.unity3d.com/Manual/class-AimConstraint.html)
-- [PositionConstraint](https://docs.unity3d.com/Manual/class-PositionConstraint.html)
-- [RotationConstraint](https://docs.unity3d.com/Manual/class-RotationConstraint.html)
-- [ScaleConstraint](https://docs.unity3d.com/Manual/class-ScaleConstraint.html)
-- [LookAtConstraint](https://docs.unity3d.com/Manual/class-LookAtConstraint.html)
-- [ParentConstraint](https://docs.unity3d.com/Manual/class-ParentConstraint.html)
-- [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html)
-- [AudioReverbZone](https://docs.unity3d.com/Manual/class-AudioReverbZone.html)
-- [AudioLowPassFilter](https://docs.unity3d.com/Manual/class-AudioLowPassFilter.html)
-- [AudioHighPassFilter](https://docs.unity3d.com/Manual/class-AudioHighPassFilter.html)
-- [AudioDistortionFilter](https://docs.unity3d.com/Manual/class-AudioDistortionFilter.html)
-- [AudioEchoFilter](https://docs.unity3d.com/Manual/class-AudioEchoFilter.html)
-- [AudioChorusFilter](https://docs.unity3d.com/Manual/class-AudioChorusFilter.html)
-- [AudioReverbFilter](https://docs.unity3d.com/Manual/class-AudioReverbFilter.html)
-- [Cloth](https://docs.unity3d.com/Manual/class-Cloth.html)
-- [Camera](https://docs.unity3d.com/Manual/class-Camera.html)
-- [FlareLayer](https://docs.unity3d.com/Manual/class-FlareLayer.html)
-- [ReflectionProbe](https://docs.unity3d.com/Manual/class-ReflectionProbe.html)
-- [BillboardRenderer](https://docs.unity3d.com/Manual/class-BillboardRenderer.html)
-- [TrailRenderer](https://docs.unity3d.com/Manual/class-TrailRenderer.html)
-- [LineRenderer](https://docs.unity3d.com/Manual/class-LineRenderer.html)
-- [Renderer](https://docs.unity3d.com/Manual/class-Renderer.html)
-- [OcclusionPortal](https://docs.unity3d.com/Manual/class-OcclusionPortal.html)
-- [OcclusionArea](https://docs.unity3d.com/Manual/class-OcclusionArea.html)
-- [LensFlare](https://docs.unity3d.com/Manual/class-LensFlare.html)
 - [Projector](https://docs.unity3d.com/Manual/class-Projector.html)
-- [Light](https://docs.unity3d.com/Manual/class-Light.html)
-- [Skybox](https://docs.unity3d.com/Manual/class-Skybox.html)
-- [MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html)
-- [LightProbeProxyVolume](https://docs.unity3d.com/Manual/class-LightProbeProxyVolume.html)
-- [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html)
-- [MeshRenderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)
-- [LightProbeGroup](https://docs.unity3d.com/Manual/class-LightProbeGroup.html)
-- [LODGroup](https://docs.unity3d.com/Manual/class-LODGroup.html)
-- [RectTransform](https://docs.unity3d.com/Manual/class-RectTransform.html)
-- [Transform](https://docs.unity3d.com/Manual/class-Transform.html)
-- [SpriteRenderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html)
-- [Light2DBase](https://docs.unity3d.com/Manual/class-Light2DBase.html)
-- [SortingGroup](https://docs.unity3d.com/Manual/class-SortingGroup.html)
-- [Grid](https://docs.unity3d.com/Manual/class-Grid.html)
-- [GridLayout](https://docs.unity3d.com/Manual/class-GridLayout.html)
-- [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html)
-- [ParticleSystemRenderer](https://docs.unity3d.com/Manual/class-ParticleSystemRenderer.html)
-- [ParticleSystemForceField](https://docs.unity3d.com/Manual/class-ParticleSystemForceField.html)
-- [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
-- [Collider2D](https://docs.unity3d.com/Manual/class-Collider2D.html)
-- [CustomCollider2D](https://docs.unity3d.com/Manual/class-CustomCollider2D.html)
-- [CircleCollider2D](https://docs.unity3d.com/Manual/class-CircleCollider2D.html)
-- [CapsuleCollider2D](https://docs.unity3d.com/Manual/class-CapsuleCollider2D.html)
-- [EdgeCollider2D](https://docs.unity3d.com/Manual/class-EdgeCollider2D.html)
-- [BoxCollider2D](https://docs.unity3d.com/Manual/class-BoxCollider2D.html)
-- [PolygonCollider2D](https://docs.unity3d.com/Manual/class-PolygonCollider2D.html)
-- [CompositeCollider2D](https://docs.unity3d.com/Manual/class-CompositeCollider2D.html)
-- [Joint2D](https://docs.unity3d.com/Manual/class-Joint2D.html)
-- [AnchoredJoint2D](https://docs.unity3d.com/Manual/class-AnchoredJoint2D.html)
-- [SpringJoint2D](https://docs.unity3d.com/Manual/class-SpringJoint2D.html)
-- [DistanceJoint2D](https://docs.unity3d.com/Manual/class-DistanceJoint2D.html)
-- [FrictionJoint2D](https://docs.unity3d.com/Manual/class-FrictionJoint2D.html)
-- [HingeJoint2D](https://docs.unity3d.com/Manual/class-HingeJoint2D.html)
-- [RelativeJoint2D](https://docs.unity3d.com/Manual/class-RelativeJoint2D.html)
-- [SliderJoint2D](https://docs.unity3d.com/Manual/class-SliderJoint2D.html)
-- [TargetJoint2D](https://docs.unity3d.com/Manual/class-TargetJoint2D.html)
-- [FixedJoint2D](https://docs.unity3d.com/Manual/class-FixedJoint2D.html)
-- [WheelJoint2D](https://docs.unity3d.com/Manual/class-WheelJoint2D.html)
-- [Effector2D](https://docs.unity3d.com/Manual/class-Effector2D.html)
-- [AreaEffector2D](https://docs.unity3d.com/Manual/class-AreaEffector2D.html)
-- [BuoyancyEffector2D](https://docs.unity3d.com/Manual/class-BuoyancyEffector2D.html)
-- [PointEffector2D](https://docs.unity3d.com/Manual/class-PointEffector2D.html)
-- [PlatformEffector2D](https://docs.unity3d.com/Manual/class-PlatformEffector2D.html)
-- [SurfaceEffector2D](https://docs.unity3d.com/Manual/class-SurfaceEffector2D.html)
-- [PhysicsUpdateBehaviour2D](https://docs.unity3d.com/Manual/class-PhysicsUpdateBehaviour2D.html)
-- [ConstantForce2D](https://docs.unity3d.com/Manual/class-ConstantForce2D.html)
-- [ArticulationBody](https://docs.unity3d.com/Manual/class-ArticulationBody.html)
-- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
-- [Collider](https://docs.unity3d.com/Manual/class-Collider.html)
-- [CharacterController](https://docs.unity3d.com/Manual/class-CharacterController.html)
-- [MeshCollider](https://docs.unity3d.com/Manual/class-MeshCollider.html)
-- [CapsuleCollider](https://docs.unity3d.com/Manual/class-CapsuleCollider.html)
-- [BoxCollider](https://docs.unity3d.com/Manual/class-BoxCollider.html)
-- [SphereCollider](https://docs.unity3d.com/Manual/class-SphereCollider.html)
-- [ConstantForce](https://docs.unity3d.com/Manual/class-ConstantForce.html)
-- [Joint](https://docs.unity3d.com/Manual/class-Joint.html)
-- [HingeJoint](https://docs.unity3d.com/Manual/class-HingeJoint.html)
-- [SpringJoint](https://docs.unity3d.com/Manual/class-SpringJoint.html)
-- [FixedJoint](https://docs.unity3d.com/Manual/class-FixedJoint.html)
-- [CharacterJoint](https://docs.unity3d.com/Manual/class-CharacterJoint.html)
-- [ConfigurableJoint](https://docs.unity3d.com/Manual/class-ConfigurableJoint.html)
-- [SpriteMask](https://docs.unity3d.com/Manual/class-SpriteMask.html)
-- [SpriteShapeRenderer](https://docs.unity3d.com/Manual/class-SpriteShapeRenderer.html)
-- [Terrain](https://docs.unity3d.com/Manual/class-Terrain.html)
-- [Tree](https://docs.unity3d.com/Manual/class-Tree.html)
-- [TerrainCollider](https://docs.unity3d.com/Manual/class-TerrainCollider.html)
-- [TextMesh](https://docs.unity3d.com/Manual/class-TextMesh.html)
-- [Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html)
-- [TilemapRenderer](https://docs.unity3d.com/Manual/class-TilemapRenderer.html)
-- [TilemapCollider2D](https://docs.unity3d.com/Manual/class-TilemapCollider2D.html)
-- [Button](https://docs.unity3d.com/Manual/script-Button.html)
-- [Dropdown](https://docs.unity3d.com/Manual/script-Dropdown.html)
-- [Graphic](https://docs.unity3d.com/Manual/script-Graphic.html)
-- [GraphicRaycaster](https://docs.unity3d.com/Manual/script-GraphicRaycaster.html)
-- [Image](https://docs.unity3d.com/Manual/script-Image.html)
-- [InputField](https://docs.unity3d.com/Manual/script-InputField.html)
-- [AspectRatioFitter](https://docs.unity3d.com/Manual/script-AspectRatioFitter.html)
-- [CanvasScaler](https://docs.unity3d.com/Manual/script-CanvasScaler.html)
-- [ContentSizeFitter](https://docs.unity3d.com/Manual/script-ContentSizeFitter.html)
-- [GridLayoutGroup](https://docs.unity3d.com/Manual/script-GridLayoutGroup.html)
-- [HorizontalLayoutGroup](https://docs.unity3d.com/Manual/script-HorizontalLayoutGroup.html)
-- [HorizontalOrVerticalLayoutGroup](https://docs.unity3d.com/Manual/script-HorizontalOrVerticalLayoutGroup.html)
-- [LayoutElement](https://docs.unity3d.com/Manual/script-LayoutElement.html)
-- [LayoutGroup](https://docs.unity3d.com/Manual/script-LayoutGroup.html)
-- [VerticalLayoutGroup](https://docs.unity3d.com/Manual/script-VerticalLayoutGroup.html)
-- [Mask](https://docs.unity3d.com/Manual/script-Mask.html)
-- [MaskableGraphic](https://docs.unity3d.com/Manual/script-MaskableGraphic.html)
 - [RawImage](https://docs.unity3d.com/Manual/script-RawImage.html)
 - [RectMask2D](https://docs.unity3d.com/Manual/script-RectMask2D.html)
-- [Scrollbar](https://docs.unity3d.com/Manual/script-Scrollbar.html)
+- [RectTransform](https://docs.unity3d.com/Manual/class-RectTransform.html)
+- [ReflectionProbe](https://docs.unity3d.com/Manual/class-ReflectionProbe.html)
+- [RelativeJoint2D](https://docs.unity3d.com/Manual/class-RelativeJoint2D.html)
+- [Renderer](https://docs.unity3d.com/Manual/class-Renderer.html)
+- [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
+- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
+- [RotationConstraint](https://docs.unity3d.com/Manual/class-RotationConstraint.html)
+- [ScaleConstraint](https://docs.unity3d.com/Manual/class-ScaleConstraint.html)
 - [ScrollRect](https://docs.unity3d.com/Manual/script-ScrollRect.html)
+- [Scrollbar](https://docs.unity3d.com/Manual/script-Scrollbar.html)
 - [Selectable](https://docs.unity3d.com/Manual/script-Selectable.html)
-- [Slider](https://docs.unity3d.com/Manual/script-Slider.html)
-- [Text](https://docs.unity3d.com/Manual/script-Text.html)
-- [Toggle](https://docs.unity3d.com/Manual/script-Toggle.html)
-- [ToggleGroup](https://docs.unity3d.com/Manual/script-ToggleGroup.html)
-- [BaseMeshEffect](https://docs.unity3d.com/Manual/script-BaseMeshEffect.html)
-- [Outline](https://docs.unity3d.com/Manual/script-Outline.html)
-- [PositionAsUV1](https://docs.unity3d.com/Manual/script-PositionAsUV1.html)
 - [Shadow](https://docs.unity3d.com/Manual/script-Shadow.html)
-- [PanelEventHandler](https://docs.unity3d.com/Manual/class-PanelEventHandler.html)
-- [PanelRaycaster](https://docs.unity3d.com/Manual/class-PanelRaycaster.html)
-- [EventTrigger](https://docs.unity3d.com/Manual/script-EventTrigger.html)
-- [BaseRaycaster](https://docs.unity3d.com/Manual/class-BaseRaycaster.html)
-- [Physics2DRaycaster](https://docs.unity3d.com/Manual/class-Physics2DRaycaster.html)
-- [PhysicsRaycaster](https://docs.unity3d.com/Manual/class-PhysicsRaycaster.html)
-- [CanvasGroup](https://docs.unity3d.com/Manual/class-CanvasGroup.html)
-- [CanvasRenderer](https://docs.unity3d.com/Manual/class-CanvasRenderer.html)
-- [Canvas](https://docs.unity3d.com/Manual/class-Canvas.html)
-- [WheelCollider](https://docs.unity3d.com/Manual/class-WheelCollider.html)
+- [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html)
+- [Skybox](https://docs.unity3d.com/Manual/class-Skybox.html)
+- [SliderJoint2D](https://docs.unity3d.com/Manual/class-SliderJoint2D.html)
+- [Slider](https://docs.unity3d.com/Manual/script-Slider.html)
+- [SortingGroup](https://docs.unity3d.com/Manual/class-SortingGroup.html)
+- [SphereCollider](https://docs.unity3d.com/Manual/class-SphereCollider.html)
+- [SpringJoint2D](https://docs.unity3d.com/Manual/class-SpringJoint2D.html)
+- [SpringJoint](https://docs.unity3d.com/Manual/class-SpringJoint.html)
+- [SpriteMask](https://docs.unity3d.com/Manual/class-SpriteMask.html)
+- [SpriteRenderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html)
+- [SpriteShapeRenderer](https://docs.unity3d.com/Manual/class-SpriteShapeRenderer.html)
+- [SurfaceEffector2D](https://docs.unity3d.com/Manual/class-SurfaceEffector2D.html)
+- [TargetJoint2D](https://docs.unity3d.com/Manual/class-TargetJoint2D.html)
+- [TerrainCollider](https://docs.unity3d.com/Manual/class-TerrainCollider.html)
+- [Terrain](https://docs.unity3d.com/Manual/class-Terrain.html)
+- [TextMesh](https://docs.unity3d.com/Manual/class-TextMesh.html)
+- [Text](https://docs.unity3d.com/Manual/script-Text.html)
+- [TilemapCollider2D](https://docs.unity3d.com/Manual/class-TilemapCollider2D.html)
+- [TilemapRenderer](https://docs.unity3d.com/Manual/class-TilemapRenderer.html)
+- [Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html)
+- [ToggleGroup](https://docs.unity3d.com/Manual/script-ToggleGroup.html)
+- [Toggle](https://docs.unity3d.com/Manual/script-Toggle.html)
+- [TrailRenderer](https://docs.unity3d.com/Manual/class-TrailRenderer.html)
+- [Transform](https://docs.unity3d.com/Manual/class-Transform.html)
+- [Tree](https://docs.unity3d.com/Manual/class-Tree.html)
+- [VerticalLayoutGroup](https://docs.unity3d.com/Manual/script-VerticalLayoutGroup.html)
 - [VideoPlayer](https://docs.unity3d.com/Manual/class-VideoPlayer.html)
+- [WheelCollider](https://docs.unity3d.com/Manual/class-WheelCollider.html)
+- [WheelJoint2D](https://docs.unity3d.com/Manual/class-WheelJoint2D.html)
 - [WindZone](https://docs.unity3d.com/Manual/class-WindZone.html)
 
 ## Third Party Assets
@@ -232,6 +231,51 @@ If you are using a different version of the asset, it may not work as expected.
     Third-party assets are not included in the ChilloutVR Content Creation Kit (CCK) and are not maintained by ChilloutVR. 
     If an asset is updated by the original developer, functionality may change or break, or may become unobtainable.
     Be aware that we may lock or freeze versions as needed.
+
+#### [Amplify Impostors Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-amplify-impostors-module-189099)
+Combine the power of [Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
+with the power of the optimized impostors provided by
+[Amplify Impostors](https://assetstore.unity.com/packages/tools/utilities/amplify-impostors-119877)! The Amplify
+Impostors Module includes presets and runtime shaders for perfect baking with Standard, Universal, and HD pipelines,
+while the seasons, overlay, wetness, wind, and interaction remain dynamic!
+
+### [Azure[Sky] Dynamic Skybox](https://assetstore.unity.com/packages/tools/particles-effects/azure-sky-dynamic-skybox-36050)
+Azure[Sky] Dynamic Skybox is a complete and robust sky system that will raise your project to another level.
+
+### [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
+Dynamic Bone applies physics to character's bones or joints. With simple setup, your character's hair, cloth, breasts or any part will move realistically.
+
+!!! warning
+    ChilloutVR uses a high-performance rewrite of Dynamic Bones v1.31, powered by the Unity Jobs System. Functionality is intended to match the original, but may differ in specific setups due to implementation details.
+
+- **Dynamic Bone:** Adds a dynamic bone to the component.
+- **Dynamic Bone Collider:** Adds a collider that collides/interacts with dynamic bones.
+- **Dynamic Bone Collider Base:** Base class for dynamic bone colliders
+- **Dynamic Bone Plane Collider:** Adds a collider plane that collides with dynamic bones.
+
+### [Dynamic Cloud System](https://assetstore.unity.com/packages/tools/particles-effects/dynamic-cloud-system-91941)
+Realistic, dynamic clouds.
+
+### [Magica Cloth 2](https://assetstore.unity.com/packages/tools/physics/magica-cloth-2-242307)
+MagicaCloth2 is a cloth simulation system that can be used with both Transform and Mesh. With this asset you can swing anything on your character!
+
+- [Magica Cloth](https://magicasoft.jp/en/mc2_magicaclothcomponent/)
+- [Magica Sphere Collider](https://magicasoft.jp/en/mc2_spherecollidercomponent/)
+- [Magica Capsule Collider](https://magicasoft.jp/en/mc2_capsulecollidercomponent/)
+- [Magica Plane Collider](https://magicasoft.jp/en/mc2_planecollidercomponent/)
+
+### [Modern Procedural UI Kit](https://assetstore.unity.com/packages/tools/gui/modern-procedural-ui-kit-163041)
+Modern Procedural UI Kit offers unlimited possibilities for building UI without any sprite assets but customizable shapes
+and gradients.
+
+### [Post Processing 2](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.0/manual/index.html)
+Post-processing is a generic term for a full-screen image processing effect that occurs after the camera draws the scene
+but before the scene is rendered on the screen. Post-processing can drastically improve the visuals of your product with
+little setup time.
+
+### [R.A.M - River Auto Material](https://assetstore.unity.com/packages/tools/terrain/r-a-m-river-auto-material-101205)
+RAM pack gives you ability to create very advanced river and lakes with flowmap, river bed shapes and textures on it
+automatically.
 
 ### [RootMotion - FinalIK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
 The final Inverse Kinematics solution for Unity.
@@ -287,51 +331,6 @@ The final Inverse Kinematics solution for Unity.
 + [Aim Poser](http://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_aim_poser.html)
 + [Editor IK](http://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_editor_i_k.html)
 
-### [Dynamic Bone](https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743)
-Dynamic Bone applies physics to character's bones or joints. With simple setup, your character's hair, cloth, breasts or any part will move realistically.
-
-!!! warning
-    ChilloutVR uses a high-performance rewrite of Dynamic Bones v1.31, powered by the Unity Jobs System. Functionality is intended to match the original, but may differ in specific setups due to implementation details.
-
-- **Dynamic Bone:** Adds a dynamic bone to the component.
-- **Dynamic Bone Collider:** Adds a collider that collides/interacts with dynamic bones.
-- **Dynamic Bone Collider Base:** Base class for dynamic bone colliders
-- **Dynamic Bone Plane Collider:** Adds a collider plane that collides with dynamic bones.
-
-### [Magica Cloth 2](https://assetstore.unity.com/packages/tools/physics/magica-cloth-2-242307)
-MagicaCloth2 is a cloth simulation system that can be used with both Transform and Mesh. With this asset you can swing anything on your character!
-
-- [Magica Cloth](https://magicasoft.jp/en/mc2_magicaclothcomponent/)
-- [Magica Sphere Collider](https://magicasoft.jp/en/mc2_spherecollidercomponent/)
-- [Magica Capsule Collider](https://magicasoft.jp/en/mc2_capsulecollidercomponent/)
-- [Magica Plane Collider](https://magicasoft.jp/en/mc2_planecollidercomponent/)
-
-### [Azure[Sky] Dynamic Skybox](https://assetstore.unity.com/packages/tools/particles-effects/azure-sky-dynamic-skybox-36050)
-Azure[Sky] Dynamic Skybox is a complete and robust sky system that will raise your project to another level.
-
-#### [Amplify Impostors Module](https://assetstore.unity.com/packages/vfx/shaders/the-vegetation-engine-amplify-impostors-module-189099)
-Combine the power of [Vegetation Engine](https://assetstore.unity.com/packages/tools/utilities/the-vegetation-engine-159647)
-with the power of the optimized impostors provided by
-[Amplify Impostors](https://assetstore.unity.com/packages/tools/utilities/amplify-impostors-119877)! The Amplify
-Impostors Module includes presets and runtime shaders for perfect baking with Standard, Universal, and HD pipelines,
-while the seasons, overlay, wetness, wind, and interaction remain dynamic!
-
-### [Post Processing 2](https://docs.unity3d.com/Packages/com.unity.postprocessing@3.0/manual/index.html)
-Post-processing is a generic term for a full-screen image processing effect that occurs after the camera draws the scene
-but before the scene is rendered on the screen. Post-processing can drastically improve the visuals of your product with
-little setup time.
-
-### [R.A.M - River Auto Material](https://assetstore.unity.com/packages/tools/terrain/r-a-m-river-auto-material-101205)
-RAM pack gives you ability to create very advanced river and lakes with flowmap, river bed shapes and textures on it
-automatically.
-
-### [Dynamic Cloud System](https://assetstore.unity.com/packages/tools/particles-effects/dynamic-cloud-system-91941)
-Realistic, dynamic clouds.
-
-### [Modern Procedural UI Kit](https://assetstore.unity.com/packages/tools/gui/modern-procedural-ui-kit-163041)
-Modern Procedural UI Kit offers unlimited possibilities for building UI without any sprite assets but customizable shapes
-and gradients.
-
 ### [Steam Audio](https://valvesoftware.github.io/steam-audio/)
 Advanced spatial audio soution made by Valve Software. Allows for realtime sound propagation, baked propagation, occulions, reflections, and physics based ambisonics.
 
@@ -352,7 +351,7 @@ Advanced spatial audio soution made by Valve Software. Allows for realtime sound
 - [Steam Audio Static Mesh](https://valvesoftware.github.io/steam-audio/doc/unity/static-mesh.html)
 - [Steam Audio Probe Batch](https://valvesoftware.github.io/steam-audio/doc/unity/probe-batch.html)
 
-## Deprecated
+## Deprecated Components
 
 !!! warning
     The following components or assets are deprecated from the Unity Asset Store and should not be used in new projects. 

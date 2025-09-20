@@ -1,6 +1,6 @@
-title: Avatar
+title: Avatars
 nav:
     - index: index.md
     - Core Parameters: animator-core-parameters.md
     - Face Tracking: face-tracking.md
-    - Whitelisted Components: whitelisted-components.md
+    - Avatar Components Whitelist: avatar-component-whitelist.md

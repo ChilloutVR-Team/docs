@@ -1,53 +1,34 @@
-# Prop Component Whitelist
+# Avatar Component Whitelist
+This page lists all components that are whitelisted for use on avatars.
 
-This page lists all components that are whitelisted for use in props / spawnables.
+## CVR Components
+A list of all whitelisted components for avatars.
 
-## CCK Components
-Components included as part of the Content Creation Kit.
-
++ [CVR Advanced Avatar Trigger](../components/cvr-advanced-avatar-settings-trigger.md)
++ [CVR Advanced Avatar Settings Pointer](../components/cvr-advanced-avatar-settings-pointer.md)
++ [CVR Advanced Avatar Settings Trigger](../components/cvr-advanced-avatar-settings-trigger.md)
 + [CVR Animator Driver](../components/cvr-animator-driver.md)
 + [CVR Asset Info](../components/cvr-asset-info.md)
-+ [CVR Attachment](../components/cvr-attachment.md)
 + [CVR Audio Driver](../components/cvr-audio-driver.md)
++ [CVR Avatar](../components/cvr-avatar.md)
 + [CVR Blitter](../components/cvr-blitter.md)
 + [CVR Blitter Controller](../components/cvr-blitter-controller.md)
-+ [CVR Camera Helper](../components/cvr-camera-helper.md)
-+ [CVR Canvas Wrapper](../components/cvr-canvas-wrapper.md)
 + [CVR Custom Render Texture Updater](../components/cvr-custom-render-texture-updater.md)
-+ [CVR Damage Raycaster](../components/cvr-damage-raycaster.md)
 + [CVR Distance Constrain](../components/cvr-distance-constrain.md)
-+ [CVR Global Material Property Updater](../components/cvr-global-material-property-updater.md)
-+ [CVR Input Field Keyboard Handler](../components/cvr-input-field-keyboard-handler.md)
-+ [CVR Interactable](../components/cvr-interactable.md)
-+ [CVR IK Hinge Limit](../components/cvr-ik-hinge-limit.md)
-+ [CVR IK Angle Limit](../components/cvr-ik-angle-limit.md)
++ [CVR Face Tracking](../components/cvr-face-tracking.md)
++ [CVR Haptic Area Chest](../components/cvr-haptic-area-chest.md)
 + [CVR Leg](../components/cvr-leg.md)
-+ [CVR Line Renderer Helper](../components/cvr-line-renderer-helper.md)
 + [CVR Lua Client Behaviour](../components/cvr-lua-client-behaviour.md)
 + [CVR Material Driver](../components/cvr-material-driver.md)
 + [CVR Material Updater](../components/cvr-material-updater.md)
-+ [CVR Movement Driver](../components/cvr-movement-driver.md)
 + [CVR Movement Parent](../components/cvr-movement-parent.md)
-+ [CVR Nav Controller](../components/cvr-nav-controller.md)
 + [CVR Parameter Stream](../components/cvr-parameter-stream.md)
 + [CVR Particle Sound](../components/cvr-particle-sound.md)
-+ [CVR Pickup Object](../components/cvr-pickup-object.md)
 + [CVR Pointer](../components/cvr-pointer.md)
-+ [CVR Shared Physics Controller](../components/cvr-shared-physics-controller.md)
-+ [CVR Skybox Manipulator](../components/cvr-skybox-manipulator.md)
 + [CVR Snapping Point](../components/cvr-snapping-point.md)
-+ [CVR Spawnable](../components/cvr-spawnable.md)
-+ [CVR Spawnable Trigger](../components/cvr-spawnable-trigger.md)
 + [CVR Texture Property Parser](../components/cvr-texture-property-parser.md)
-+ [CVR Variable Buffer](../components/cvr-variable-buffer.md)
-+ [CVR Video Player](../components/cvr-video-player.md)
-+ [CVR Wheel Controller](../components/cvr-wheel-controller.md)
-+ [CVR Wheel Hub Controller](../components/cvr-wheel-hub-controller.md)
-+ [Damage](../components/damage.md)
-+ [Fluid Volume](../components/fluid-volume.md)
-+ [Force Applicator](../components/force-applicator.md)
-+ [Gravity Zone](../components/gravity-zone.md)
-+ [Physics Influencer](../components/physics-influencer.md)
++ [CVR Toggle State Trigger](../components/cvr-toggle-state-trigger.md)
++ [First Person Exclusion](../components/first-person-exclusion.md)
 
 ## CCK State Behaviours
 All the state behaviours that are usable Spawnables.
@@ -62,49 +43,30 @@ Components included as part of the Unity Engine.
 - [Animator](https://docs.unity3d.com/Manual/class-Animator.html)
 - [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html)
 - [BoxCollider](https://docs.unity3d.com/Manual/class-BoxCollider.html)
-- [Button](https://docs.unity3d.com/Manual/script-Button.html)
 - [Camera](https://docs.unity3d.com/Manual/class-Camera.html)
-- [CanvasGroup](https://docs.unity3d.com/Manual/class-CanvasGroup.html)
-- [CanvasRenderer](https://docs.unity3d.com/Manual/class-CanvasRenderer.html)
-- [Canvas](https://docs.unity3d.com/Manual/class-Canvas.html)
 - [CapsuleCollider](https://docs.unity3d.com/Manual/class-CapsuleCollider.html)
 - [Cloth](https://docs.unity3d.com/Manual/class-Cloth.html)
 - [Collider](https://docs.unity3d.com/Manual/class-Collider.html)
 - [ConstantForce](https://docs.unity3d.com/Manual/class-ConstantForce.html)
-- [ContentSizeFitter](https://docs.unity3d.com/Manual/script-ContentSizeFitter.html)
-- [Dropdown](https://docs.unity3d.com/Manual/script-Dropdown.html)
-- [GraphicRaycaster](https://docs.unity3d.com/Manual/script-GraphicRaycaster.html)
-- [HorizontalLayoutGroup](https://docs.unity3d.com/Manual/script-HorizontalLayoutGroup.html)
-- [Image](https://docs.unity3d.com/Manual/script-Image.html)
 - [Light](https://docs.unity3d.com/Manual/class-Light.html)
 - [LineRenderer](https://docs.unity3d.com/Manual/class-LineRenderer.html)
 - [LookAtConstraint](https://docs.unity3d.com/Manual/class-LookAtConstraint.html)
 - [MeshCollider](https://docs.unity3d.com/Manual/class-MeshCollider.html)
 - [MeshRenderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html)
-- [NavMeshAgent](https://docs.unity3d.com/2021.3/Documentation/Manual/class-NavMeshAgent.html)
-- [NavMeshObstacle](https://docs.unity3d.com/2021.3/Documentation/ScriptReference/AI.NavMeshObstacle.html)
 - [OffMeshLink](https://docs.unity3d.com/2021.3/Documentation/Manual/class-OffMeshLink.html)
 - [ParentConstraint](https://docs.unity3d.com/Manual/class-ParentConstraint.html)
+- [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html)
 - [ParticleSystemForceField](https://docs.unity3d.com/Manual/class-ParticleSystemForceField.html)
 - [ParticleSystemRenderer](https://docs.unity3d.com/Manual/class-ParticleSystemRenderer.html)
-- [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html)
 - [PositionConstraint](https://docs.unity3d.com/Manual/class-PositionConstraint.html)
-- [RawImage](https://docs.unity3d.com/Manual/script-RawImage.html)
-- [RectMask2D](https://docs.unity3d.com/Manual/script-RectMask2D.html)
-- [RectTransform](https://docs.unity3d.com/Manual/class-RectTransform.html)
-- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
 - [RotationConstraint](https://docs.unity3d.com/Manual/class-RotationConstraint.html)
 - [ScaleConstraint](https://docs.unity3d.com/Manual/class-ScaleConstraint.html)
-- [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html)
 - [Skybox](https://docs.unity3d.com/Manual/class-Skybox.html)
-- [Slider](https://docs.unity3d.com/Manual/script-Slider.html)
+- [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html)
 - [SphereCollider](https://docs.unity3d.com/Manual/class-SphereCollider.html)
-- [TextMesh](https://docs.unity3d.com/Manual/class-TextMesh.html)
-- [Text](https://docs.unity3d.com/Manual/script-Text.html)
-- [Toggle](https://docs.unity3d.com/Manual/script-Toggle.html)
 - [TrailRenderer](https://docs.unity3d.com/Manual/class-TrailRenderer.html)
 - [Transform](https://docs.unity3d.com/Manual/class-Transform.html)
-- [VerticalLayoutGroup](https://docs.unity3d.com/Manual/script-VerticalLayoutGroup.html)
+- [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html)
 - [WheelCollider](https://docs.unity3d.com/Manual/class-WheelCollider.html)
 
 ## Third Party Assets
@@ -138,7 +100,7 @@ MagicaCloth2 is a cloth simulation system that can be used with both Transform a
 - [Magica Capsule Collider](https://magicasoft.jp/en/mc2_capsulecollidercomponent/)
 - [Magica Plane Collider](https://magicasoft.jp/en/mc2_planecollidercomponent/)
 
-### [RootMotion - FinalIK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
+### [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
 The final Inverse Kinematics solution for Unity.
 
 !!! warning
@@ -193,15 +155,15 @@ The final Inverse Kinematics solution for Unity.
 + [Editor IK](http://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_editor_i_k.html)
 
 ### [Steam Audio](https://valvesoftware.github.io/steam-audio/)
-Advanced spatial audio soution made by Valve Software. Allows for realtime sound propagation, baked propagation, occulions, reflections, and physics based ambisonics.
+**Steam Audio** is a third party asset. Whitelisted components listed below.
 
 !!! note
-    Changing the steam audio project settings can alter how a prop sound sounds during testing. Those changes will not be reflected in game after upload.
+    Changing the steam audio project settings can alter how a avatar sound sounds during testing. Those changes will not be reflected in game after upload.
 
 - [Steam Audio Ambisonic Source](https://valvesoftware.github.io/steam-audio/doc/unity/ambisonic-source.html)
 - [Steam Audio Source](https://valvesoftware.github.io/steam-audio/doc/unity/source.html)
 
-## Deprecated Components
+## Deprecated Thrid Party Components
 
 !!! warning
     The following components or assets are deprecated from the Unity Asset Store and should not be used in new projects. 
@@ -223,3 +185,4 @@ Advanced spatial audio soution made by Valve Software. Allows for realtime sound
 - [Magica Plane Collider](https://magicasoft.jp/en/magica-cloth-plane-collider-2/)
 - [Magica Sphere Collider](https://magicasoft.jp/en/magica-cloth-sphere-collider-2/)
 - [Magica Capsule Collider](https://magicasoft.jp/en/magica-cloth-capsule-collider-2/)
+
