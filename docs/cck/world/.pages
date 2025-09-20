@@ -1,0 +1,4 @@
+title: Worlds
+nav:
+    - index: index.md
+    - World Components Whitelist: world-component-whitelist.md

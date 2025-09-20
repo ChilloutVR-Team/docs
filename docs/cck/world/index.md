@@ -1,5 +1,13 @@
 # World Creation
-Worlds are custom enviroments or games that players can join and explore together.
+Welcome to the world documention. Here you will find documentation about world features, short guides, and avalible components.
+
+## Required Components
+Props use these required components to define asset info and behaviour and settings.
+!!! note
+    CVR Asset Info is automatically added when CVR World is added if asset info is not present.
+
+- [CVR Asset Info](../components/cvr-asset-info.md)
+- [CVR World](../components/cvr-world.md)
 
 ## Whitelisted Components
 
