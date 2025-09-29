@@ -5,5 +5,5 @@ content contained within the game.
 
 This DLC unlocks the following [Content Tags](../../cck/content-tags.md) to be enabled by users.
 
-- [Nudity](../../cck/content-tags.md#nudity)
+- [Explicit](../../cck/content-tags.md#explicit)
 - [Gore](../../cck/content-tags.md#gore)

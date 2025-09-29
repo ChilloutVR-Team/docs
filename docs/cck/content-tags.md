@@ -1,41 +1,29 @@
 # Content Tags
+
 The following contains an overview of the content classification tags provided by the CCK. You are required to tag your
 uploaded content accordingly. If you are unsure about a certain tag's meaning you can contact us at any time via email.
-In addition, if you are unsure if you need to tag your content with a certain tag, either contact us before uploading or
-add the tag in the meanwhile to be on the save side.
 
-## Audible Experience
-Audible experience focuses on audio or sound contained within uploaded content.
+!!! tip
+    **If in doubt: _tag it_.** It's better to be overly cautious than miss an important tag!
 
-### Loud Audio
-The Loud Audio Tag is used for content which contains loud audio. Loud audio can mean, but is not limited to, vastly
-louder sound effects or music playing.
+## Disrupting Experience
 
-### Long-Range Audio
-This tag is used for audio sources which have a long distance fall off. This means that you can hear them ingame,
-even while being far or very far away from its origin.
+Tags for effects that change or interrupt normal gameplay, such as screen overlays, flashing visuals, or sudden scares.
 
-### Spawn Audio
-This tag is specifically made for audio sources which immediately play after the content is loaded, aka. spawn audios.
+### Screen Effects
 
-### Contains Music
-Use this tag if your created content, specifically avatars and spawnables/props, contains music. This tag was not made
-because of copyright or any other legal reasons, this tag, including all others as well, does not protect your content from getting
-copyright claimed and/or taken down because of legal reasons.
+Content that includes any visual effect that alters, distorts, or overlays the player’s screen.
 
 Including but not limited to:
 
-- User playing music on his avatar
-- User playing music using a prop
+- Fullscreen or screen-space shader effects (blur, distortion, chromatic aberration, static, noise)
+- Screen overlays that attach to the HUD
+- Screen-space animations (pulsing, flashing, color shifts)
 
-## Visual Experience
-Visual Experience contains everything that effect what a player, yourself using the avatar and other players, sees visually.
+### Flashing Effects
 
-### Flashing Colors
-Use this tag, if your content contains rapidly changing/flashing colors.
-
-### Flashing Lights
-This tag is similar to [Flashing Colors](#flashing-colors), but is not limited to color. 
+When the content contains rapidly flashing/changing elements which may cause
+discomfort or photosensitivity.
 
 Including but not limited to flashing/rapidly changing:
 
@@ -45,75 +33,102 @@ Including but not limited to flashing/rapidly changing:
 - Colors
 
 !!! tip
-    Flashing Colors and Flashing Lights is commonly used together. The most important reason for this tag's existence is
-    due to health conditions players might have. So make sure to use those tags whenever something is rapidly changing or
-    flashing.
+    The most important reason for this tag's existence is due to health conditions players might have. Make sure to
+    use those tags whenever something is rapidly changing or flashing.
 
-### Extremely Bright
-Extremely bright is pretty much self-explanatory, use it, when you have a lot of bright materials on your content.
+### Jumpscare
 
-Including but not limited to:
+Content containing sudden visual or audio event designed to startle the user.
 
-- High emissive values on materials
-- High amount of bloom
+A jumpscare is a technique often used in horror films and video games, intended to scare the audience by surprising
+them with an abrupt change in image or event, usually co-occurring with a loud, frightening sound.
 
-### Particle Systems
-Use this tag, if your content contains particle systems.
+## Mature Themes
 
-### Screen Effects
-If your content contains any kind of screen effects use this tag.
+Tags for content with adult or sensitive themes, including suggestive material, violence, or horror elements.
 
-Including but not limited to:
+### Suggestive
 
-- Screen space shader effects
-- Screen space animation
-- Flashy animations
+Content that implies sexual themes without necessary explicit material.
 
-## Content
+Refer to our [Suggestive Content guidelines](../official/legal/content_guidelines.md#suggestive) for in-depth
+information.
 
 ### Violence
-Use this tag if your avatar contains violence.
+
+Content that features non-graphic depictions of harm, non-graphic injuries, or destruction including weapons or damage.
 
 Including but not limited to:
 
-- Injuries
-- Damaging or
-- Destroying an object/character
+- Non-graphic Injuries
+- Damaging or Destroying an object/character
 - Usage of firearms
 
-### Gore
-If your content contains gore of any kind.
-
-Including but not limited to:
-
-- Blood from a wound or cut
-- Excessive violence
-- Excessive detail about e.g. an injury
-
-!!! warning "Tag Locked"
-    This tag is locked behind the [Mature Content Access DLC](../chilloutvr/faq/mature-content-access-dlc.md) which is free
-    on steam. 
+!!! warning "Graphic Violence"
+    If your content depicts injuries and/or violence with graphic detail, you should also apply the [Gore](#gore) tag too!
 
 ### Horror
-Use this tag if your content contains **Horror** elements.
+
+Content designed to scare using spooky visuals, sounds, or horror tropes.
 
 Including but not limited to:
 
 - Scary visual effect
 - Scary sound effects
-- Jump scares
 
-### Jump scare
-A jump scare is a technique often used in horror films and video games, intended to scare the audience by surprising them
-with an abrupt change in image or event, usually co-occurring with a loud, frightening sound.
+## Content Gating
 
-### Excessively Small
-Use this tag if your avatar or spawnable/prop is very small.
+Tags for explicit or graphic content, only visible with the
+free [Mature Content Access DLC](../chilloutvr/faq/mature-content-access-dlc.md).
 
-### Excessively Huge
-Just like [Excessively Small](#excessively-small), but the other way around. If your avatar or spawnable/prop is very huge.
+### Gore
 
-## Age Gate Classification
-This tag category is used to classify suggestive and explicit.
+Includes graphic content such as blood, wounds, or detailed injury visuals.
 
-The content classification for suggestive/explicit(formerly nudity) is outlined in our [content classifications](../official/legal/content-classification.md)
+Including but not limited to:
+
+- Blood from a wound or cut
+- Excessive violence
+- Excessive detailing on injuries
+
+!!! warning "Tag Locked"
+    This tag is locked behind the [Mature Content Access DLC](../chilloutvr/faq/mature-content-access-dlc.md) which is
+    free on steam.
+
+### Explicit
+
+Content showing sexual acts, full nudity with intimate areas visible, or material designed for sexual arousal.
+
+Refer to our [Explicit Content guidelines](../official/legal/content_guidelines.md#explicit) for in-depth
+information.
+
+!!! tip
+    When tagging your content as Explicit, you should also mark as [Suggestive](#suggestive).
+
+!!! warning "Tag Locked"
+    This tag is locked behind the [Mature Content Access DLC](../chilloutvr/faq/mature-content-access-dlc.md) which is
+    free on steam.
+
+## Automatically Tagged
+
+Some tags will automatically be applied, so the user doesn't need to worry about them.
+
+- **Loud Audio** - Contains an [audioclip](https://docs.unity3d.com/Manual/class-AudioClip.html){:target="_blank"} is
+  above `-8db`
+- **Long Range Audio** - Contains 
+  an [audiosource](https://docs.unity3d.com/Manual/class-AudioSource.html){:target="_blank"} that is `2D` or above `15m`
+  distance
+
+## Deprecated Tags
+
+Some tags were deprecated/merged due the irrelevance, lack of implementation, or being replaced.
+
+- **Nudity** - Was replaced with [Explicit](#explicit)
+- **Extremely Bright** - Was merged into [Flashing Effects](#flashing-effects)
+- **Flashing Colors** - Was merged into [Flashing Effects](#flashing-effects)
+- **Flashing Lights** - Was merged into [Flashing Effects](#flashing-effects)
+- **Extremely Huge** - Too subjective, will be added as a Removable on the game client
+- **Extremely Small** - Too subjective, will be added as a Removable on the game client
+- **Particle Systems** - Already exists as a Removable on the game client
+- **Spawn Audio** - Was not implemented
+- **Contains Music** - Was not implemented
