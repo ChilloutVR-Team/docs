@@ -43,9 +43,8 @@ The active demonstration or performance of fetish activities in public spaces wh
 Example: wearing a collar as an accessory versus participating in pet-play activities while collared and leashed.
 
 ### Permitted (Not Considered Exhibition):
-
-- Wearing fetish-associated clothing/accessories as fashion<sup>1</sup>
-- Discussing fetishes in appropriate contexts<sup>2</sup>
+- Wearing fetish-associated clothing/accessories as fashion
+- Discussing fetishes in appropriate contexts<sup>1</sup>
 
 ### Prohibited (Constitutes Exhibition):
 
@@ -55,6 +54,4 @@ Example: wearing a collar as an accessory versus participating in pet-play activ
 - Creating scenarios where others become unwilling participants
 - Broadcasting or demonstrating fetish behaviours in public spaces
 
-<sup>1</sup> **Exception:** Age-play related attire (pacifiers, diapers, etc.) constitutes 'passive exhibitionism' and is prohibited in public instances. Standard fetish clothing such as collars and harnesses worn as fashion are permitted.
-
-<sup>2</sup> Fetish discussions should follow appropriate social context; casual conversation among willing participants is permitted, while unsolicited fetish topics directed at strangers is prohibited.
+<sup>1</sup> Fetish discussions should follow appropriate social context; casual conversation among willing participants is permitted, while unsolicited fetish topics directed at strangers is prohibited.
