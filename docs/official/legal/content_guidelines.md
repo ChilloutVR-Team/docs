@@ -33,7 +33,7 @@ Content implying sexual themes without explicit material; revealing clothing, ro
 
 **Revealing Attire (covers intimate areas):**
 
-- Low-cut tops, mini-skirts, bikinis
+- Low-cut tops, micro-skirts, bikinis
 - Pants/undergarments accentuating buttocks
 
 **Form-fitting Clothing (non-accentuating):**
