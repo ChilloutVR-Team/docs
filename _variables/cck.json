@@ -5,9 +5,9 @@
   },
   "unity": {
     "install": {
-      "version": "2021.3.45f1",
-      "hub": "unityhub://2021.3.45f1/0da89fac8e79",
-      "executable": "https://unity.com/releases/editor/whats-new/2021.3.45#installs"
+      "version": "2021.3.45f2",
+      "hub": "unityhub://2021.3.45f2/8cef6e228579",
+      "executable": "https://download.unity3d.com/download_unity/88f88f591b2e/Windows64EditorInstaller/UnitySetup64-2021.3.45f2.exe"
     }
   }
 }
