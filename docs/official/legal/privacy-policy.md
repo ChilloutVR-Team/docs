@@ -1,12 +1,10 @@
 # Privacy Policy
 
-Alpha Blend Interactive UG (haftungsbeschränkt) takes your privacy very seriously. This privacy policy is designed to
+The ChilloutVR Team takes your privacy very seriously. This privacy policy is designed to
 assist you in understanding how we collect and use the personal information you provide to us and to assist you in
-making informed decisions when using our site and our products and services. The content of abinteractive.net,
-abinteractive.de and alphablend.cloud are the service offerings of Alpha Blend Interactive UG (haftungsbeschränkt), a
-limited liability company registered in Arnsberg, Germany with company number HRB 12947. Alpha Blend Interactive UG (
-haftungsbeschränkt) and associated companies, and references in this document to “us,” “our,” and “we” refer to Alpha
-Blend Interactive UG (haftungsbeschränkt) and abinteractive.net.
+making informed decisions when using our site and our products and services. The content of chilloutvr.net are the 
+service offerings of the ChilloutVR Team. The ChilloutVR Team and associated companies, and references in this document 
+to “us,” “our,” and “we” refer to the ChilloutVR Team and chilloutvr.net.
 
 This Privacy Policy addresses all the requirements set out in the GDPR. The General Data Protection Regulation (EU)
 2016/679 (“GDPR”) is a regulation in EU law on data protection and privacy for all individuals within the European
@@ -19,7 +17,7 @@ Policy, please do not use the Site or its services and features.
 
 ## (1) Information collected
 
-Alpha Blend Interactive UG (haftungsbeschränkt) may collect certain personal information from you when you register to
+The ChilloutVR Team may collect certain personal information from you when you register to
 use the Website or its services and features. We may also collect additional personal information, including your
 physical address, in order to deliver products. We may also collect certain non-personally identifiable information from
 users of our site, such as their Internet protocol address, the type of browser and operating system they use, the
@@ -45,7 +43,7 @@ administer our site, to deliver web pages to you upon request, to tailor our sit
 measure traffic within our site.
 
 ##### Social logins
-Alpha Blend Interactive UG (haftungsbeschränkt) also offers Social Logins for ease of use of its
+The ChilloutVR Team also offers Social Logins for ease of use of its
 services. The data collected from this interaction will always be secured and will never become publicly available at
 any time. The Social Logins are provided by Gaming platform called Steam (steamcommunity.com) and chat platform called
 Discord (discordapp.com).
@@ -53,20 +51,20 @@ Discord (discordapp.com).
 ##### Public posting
 If you post in the comments of a blog post on the Website (or anywhere on social media), you
 should be aware that any information you share is visible to other users. Personally identifiable information you submit
-to one of these forums can be read, collected, or used by other individuals to send you unsolicited messages. Alpha
-Blend Interactive UG (haftungsbeschränkt) is not responsible for the personally identifiable information you choose to
+to one of these forums can be read, collected, or used by other individuals to send you unsolicited messages. The ChilloutVR Team
+is not responsible for the personally identifiable information you choose to
 submit in these forums. For example, if you choose to make information, which was previously non-public, available by
-enabling certain user features, (such as blog comments) Alpha Blend Interactive UG (haftungsbeschränkt) will collect
+enabling certain user features, (such as blog comments) the ChilloutVR Team will collect
 that information from your interaction, and the information will become publicly available.
 
 ## (2) Information from minors
 
-Alpha Blend Interactive UG (haftungsbeschränkt) does not knowingly collect information from children under the age of
+The ChilloutVR Team does not knowingly collect information from children under the age of
 13. Nor do we collect information from any individual under the age of 18 without the consent of a parent or guardian.
 If you believe that your child has registered on our site or that we have collected information from your child, please
 contact us immediately so that we can remove that information from our database.
 
-Alpha Blend Interactive UG (haftungsbeschränkt) does recognize that parents, guardians, or other adults may purchase our
+The ChilloutVR Team does recognize that parents, guardians, or other adults may purchase our
 products for family use, including use by minors. We do not knowingly collect personal information from children under
 13 for marketing purposes, but because some information is collected electronically, it can appear to be the personal
 information of the purchaser of the product, and will be treated as such by this privacy policy.
@@ -173,14 +171,14 @@ from a mailing list, we retain some basic information to ensure we don’t conta
 
 ## (8) Third-Party websites and links
 
-Alpha Blend Interactive UG (haftungsbeschränkt) may link to websites, products and services operated by third parties.
-Alpha Blend Interactive UG (haftungsbeschränkt) is not responsible for and does not endorse or accept any responsibility
+The ChilloutVR Team may link to websites, products and services operated by third parties.
+The ChilloutVR Team is not responsible for and does not endorse or accept any responsibility
 for the availability, contents, products, services or use of any Third Party Website, any website accessed from a Third
 Party Site, or any changes or updates to such sites.
 
 These linked websites are only for your convenience and therefore you access them at your own risk. You acknowledge that
-you bear all risks associated with access to and use of content provided on a Third Party Site and agree that Alpha
-Blend Interactive UG (haftungsbeschränkt) and associated companies are not responsible for any loss or damage of any
+you bear all risks associated with access to and use of content provided on a Third Party Site and agree that the
+ChilloutVR Team and associated companies are not responsible for any loss or damage of any
 sort you may incur from dealing with a third party. You should contact the website administrator for the applicable
 Third Party Site if you have any concerns regarding such links or the content located on any such Third Party Site.
 
