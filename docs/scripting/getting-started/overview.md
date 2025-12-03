@@ -44,6 +44,8 @@ This implementation should feel much more like writing normal Unity scripts, wit
 As with any sandboxed scripting solution, there are some limitations to what can be done. 
 For technical, security, or implementation reasons, some features may not be available or behave differently than in Unity.
 
+- All WasmBehaviours & serializable subclasses must be `partial` classes.
+    - This is **required** for our serialization system to work properly.
 - Currently, scripts within Prefabs outside the main scene will not be properly built into the final WASM module or usable after instantiation (CCK limitation).
     - Additionally, crawling Prefabs outside a scene will throw permission errors due to our aggressive permissions' system (Game limitation).
     - Please include all objects you will be creating at runtime in the main scene and leave them disabled to work around this limitation for now.

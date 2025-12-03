@@ -101,7 +101,7 @@ World evaluates -> Remote Avatars/Props evaluate -> Local Avatar & Late Events e
 
 ## Player Events
 
-For Player related APIs see: [Player](player.md) and [LocalPlayer](local-player.md)
+For Player related APIs see: [Player API](player.md) and [LocalPlayer API](local-player.md)
 
 | Signature                                               | Description                     |
 | ------------------------------------------------------- | ------------------------------- |
@@ -119,7 +119,7 @@ For Player related APIs see: [Player](player.md) and [LocalPlayer](local-player.
 
 ## Prop Events
 
-For Prop related APIs see: [Prop](prop.md)
+For Prop related APIs see: [Prop API](prop.md)
 
 | Signature                                                     | Description                   |
 | ------------------------------------------------------------- | ----------------------------- |
@@ -136,7 +136,7 @@ For Prop related APIs see: [Prop](prop.md)
 
 ## Portal Events
 
-For Portal related APIs see: [Portal](portal.md)
+For Portal related APIs see: [Portal API](portal.md)
 
 | Signature                                          | Description           |
 | -------------------------------------------------- | --------------------- |
@@ -147,7 +147,7 @@ For Portal related APIs see: [Portal](portal.md)
 
 ## Networking Events
 
-For Networking related APIs see: [Networking](networking.md)
+For Networking related APIs see: [Networking API](networking.md)
 
 | Signature                                                                     | Description                                                                                          |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
