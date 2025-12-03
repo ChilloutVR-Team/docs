@@ -11,5 +11,6 @@ nav:
     - Networking API: networking.md
     - File Storage API: file-storage.md
     - Buffer Reader Writer: buffer-reader-writer.md
+    - CVR Layers: cvr-layers.md
     - CVR Camera API: cvr-camera.md
     - CVR Clone API: cvr-clone.md
