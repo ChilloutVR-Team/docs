@@ -1,0 +1,55 @@
+﻿this is the structure you should follow when making the documentation pages for the scripting docs:
+
+
+<big><sub>**`Namespace`**</sub></big>
+# API Name
+
+description
+
+!!! Note
+  Optional Note
+
+
+## Static Members
+
+### Static Properties
+
+|              signature              |      description      |
+|-------------------------------------|-----------------------|
+| static void Property { get; set; }  | description           |
+
+### Static Methods
+
+|         signature         |           description           |
+|---------------------------|---------------------------------|
+| static void Method(args); | description [example](Example2) |
+
+
+## Instance Members
+
+### Instance Properties
+
+|          signature          |          description          |
+|-----------------------------|-------------------------------|
+| void Property { get; set; } | description                   |
+
+### Instance Methods
+
+|      signature      |              description              |
+|---------------------|---------------------------------------|
+| void Method(args);  | description                           |
+
+
+## Examples
+
+### Example1
+
+```csharp
+    example1
+```
+
+### Example2
+
+```csharp
+    example2
+```

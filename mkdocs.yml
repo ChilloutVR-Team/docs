@@ -17,6 +17,7 @@ theme:
     - search.share
     - search.suggest
     - navigation.indexes
+    - content.tabs
   palette:
     # Dark mode
     - scheme: slate
@@ -83,6 +84,8 @@ markdown_extensions:
       permalink: true
   - codehilite
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.inlinehilite
   - pymdownx.details
   - pymdownx.highlight:

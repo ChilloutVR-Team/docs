@@ -1,0 +1,13 @@
+﻿title: API Reference
+nav:
+    - Available Events: available-events.md
+    - Available Attributes: available-attributes.md
+    - Available Scripting Defines: available-scripting-defines.md
+    - UnityEvent Rewiring: unityevent-rewiring.md
+    - Prop API: prop.md
+    - Player API: player.md
+    - Portal API: portal.md
+    - Local Player API: local-player.md
+    - Networking API: networking.md
+    - File Storage API: file-storage.md
+    - Buffer Reader Writer: buffer-reader-writer.md
