@@ -8,6 +8,7 @@ nav:
     - Player API: player.md
     - Portal API: portal.md
     - Local Player API: local-player.md
+    - CVR Camera API: cvr-camera.md
     - Networking API: networking.md
     - File Storage API: file-storage.md
     - Buffer Reader Writer: buffer-reader-writer.md

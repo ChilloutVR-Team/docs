@@ -22,14 +22,14 @@ For Player related events please see [Available Events - Player Events](availabl
 
 #### Instance Properties
 
-| Signature                                                                                                 | Description                          |
-|:----------------------------------------------------------------------------------------------------------|--------------------------------------|
-| string UserId \{ get; \}                                                                                  | Unique user identifier               |
-| string Username \{ get; \}                                                                                | Display name                         |
-| short NetworkId \{ get; \}                                                                                | Short network identifier             |
-| [GameObject](https://docs.unity3d.com/ScriptReference/GameObject.html) GameObject { get; }                | Root game object representing player |
-| [AvatarPoint](#AvatarPoint) ViewPoint \{ get; \}                                                          | Wrapped viewpoint                    |
-| [AvatarPoint](#AvatarPoint) VoicePoint \{ get; \}                                                         | Wrapped voicepoint                   |
+| Signature                                                                                    | Description                          |
+|:---------------------------------------------------------------------------------------------|--------------------------------------|
+| string UserId \{ get; \}                                                                     | Unique user identifier               |
+| string Username \{ get; \}                                                                   | Display name                         |
+| short NetworkId \{ get; \}                                                                   | Short network identifier             |
+| [GameObject](https://docs.unity3d.com/ScriptReference/GameObject.html) GameObject \{ get; \} | Root game object representing player |
+| [AvatarPoint](#AvatarPoint) ViewPoint \{ get; \}                                             | Wrapped viewpoint                    |
+| [AvatarPoint](#AvatarPoint) VoicePoint \{ get; \}                                            | Wrapped voicepoint                   |
 
 #### Instance Methods
 
