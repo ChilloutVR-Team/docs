@@ -22,34 +22,33 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 
 ### Static Methods
 
-| Signature                                                       | Description                           |
-|-----------------------------------------------------------------|---------------------------------------|
-| `CVRFile ReadFile(string fileName)`                             | Reads the entire file                 |
-| `CVRFile ReadFile(string fileName, int offset, int length)`     | Reads a segment of a file             |
-| `void WriteFile(string fileName, Span<byte> bytes)`             | Writes all bytes (overwrite)          |
-| `void WriteFile(string fileName, Span<byte> bytes, int offset)` | Writes bytes at a specific offset     |
-| `void DeleteFile(string fileName)`                              | Deletes a file                        |
-| `void RenameFile(string oldFileName, string newFileName)`       | Renames a file                        |
-| `bool FileExists(string fileName)`                              | Checks if a file exists               |
-| `string[] GetFiles()`                                           | Returns all file names                |
-| `int GetFileSize(string fileName)`                              | Returns file size in bytes            |
-| `long GetTotalSize()`                                           | Total size of all stored files        |
-| `long GetTotalCapacity()`                                       | Maximum allowed storage size          |
-| `bool CanUseFileStorage()`                                      | Whether the world can use FileStorage |
-| `void RequestUseFileStorage(Action<bool> onResult)`             | Prompts the user once for permission  |
+| Signature                                                             | Description                           |
+|-----------------------------------------------------------------------|---------------------------------------|
+| [CVRFile](#CVRFile) ReadFile(string fileName)                         | Reads the entire file                 |
+| [CVRFile](#CVRFile) ReadFile(string fileName, int offset, int length) | Reads a segment of a file             |
+| void WriteFile(string fileName, Span<byte> bytes)                     | Writes all bytes (overwrite)          |
+| void WriteFile(string fileName, Span<byte> bytes, int offset)         | Writes bytes at a specific offset     |
+| void DeleteFile(string fileName)                                      | Deletes a file                        |
+| void RenameFile(string oldFileName, string newFileName)               | Renames a file                        |
+| bool FileExists(string fileName)                                      | Checks if a file exists               |
+| string[] GetFiles()                                                   | Returns all file names                |
+| int GetFileSize(string fileName)                                      | Returns file size in bytes            |
+| long GetTotalSize()                                                   | Total size of all stored files        |
+| long GetTotalCapacity()                                               | Maximum allowed storage size          |
+| bool CanUseFileStorage()                                              | Whether the world can use FileStorage |
+| void RequestUseFileStorage(Action<bool> onResult)                     | Prompts the user once for permission  |
 
 ## CVRFile
 <small>**`WasmScripting.CVRFile`**</small>
 
 `CVRFile` represents a file returned by `FileStorage.ReadFile`.  
-It owns an unmanaged buffer, automatically freed when collected.
 
 ### Instance Properties
 
-| Member          | Type        | Description                                      |
-|-----------------|-------------|--------------------------------------------------|
-| `Bytes`         | Span<byte>  | The file's raw byte buffer                       |
-| `Length`        | int         | Number of bytes returned                         |
+| Member | Type       | Description                |
+|--------|------------|----------------------------|
+| Bytes  | Span<byte> | The file's raw byte buffer |
+| Length | int        | Number of bytes returned   |
 
 `Bytes` is a live span referencing unmanaged memory.  
 Do **not** store it long-term; copy data if needed.
