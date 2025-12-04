@@ -11,7 +11,7 @@ Using this system you have full control over the clone's position, rotation, and
     Only **Worlds** may use the Clone API. Avatars and Props cannot use the Clone API due to it's expensive nature.
 
 ## CVRClone
-<big><sub>**`CVR.Clone`**</sub></big>
+<big><sub>**`CVR.CVRClone`**</sub></big>
 
 ### Static Members
 

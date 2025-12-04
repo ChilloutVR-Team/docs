@@ -31,15 +31,6 @@ For Prop related events please see [Available Events - Prop Events](available-ev
 |----------------|--------------------------------------------------------------------------------|
 | void Destroy() | Destroys the prop; if called on the spawner's client, destroys it for everyone |
 
-## Example
+## Relevant Examples
 
-```csharp
-/// Destroys any prop that enters its trigger collider
-public partial class PropDestroyer : WasmBehaviour
-{
-    private void OnPropTriggerEnter(Prop prop, Collider other)
-    {
-        prop.Destroy();
-    }
-}
-```
+- [Destroy Prop on Contact](../examples/destroy-prop-on-contact.md)

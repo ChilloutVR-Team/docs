@@ -119,6 +119,12 @@ ARTICLES
 .md-typeset table:not([class]) {
     display: table;
 }
+/* Lets the docs stretch the full width of the screen. Needs tweaking on mobile... */
+/*.md-grid {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    max-width: unset;
+}*/
 /* Zebra striping to make tables easier to read */
 [data-md-color-scheme="default"] .md-typeset__table thead tr,
 [data-md-color-scheme="default"] .md-typeset__table tbody tr:nth-child(even) {
@@ -129,9 +135,14 @@ ARTICLES
     background-color: color-mix(in srgb, white 5%, var(--md-default-bg-color, #1a1a1a));
 }
 /*Make all the table borders visible*/
-[data-md-color-scheme="default"] .md-typeset td:not([class]):not(:last-child) {
-    border: 0.05rem solid color-mix(in srgb, black 10%, var(--md-default-bg-color, #fff));
+table {
+    border-collapse: collapse;
 }
-[data-md-color-scheme="slate"] .md-typeset td:not([class]):not(:last-child) {
-    border: 0.05rem solid color-mix(in srgb, white 10%, var(--md-default-bg-color, #1a1a1a));
+[data-md-color-scheme="default"] table td,
+[data-md-color-scheme="default"] table th {
+    border: 1px solid color-mix(in srgb, black 10%, var(--md-default-bg-color, #1a1a1a));
+}
+[data-md-color-scheme="slate"] table td, 
+[data-md-color-scheme="slate"] table th {
+    border: 1px solid color-mix(in srgb, white 10%, var(--md-default-bg-color, #1a1a1a));
 }
