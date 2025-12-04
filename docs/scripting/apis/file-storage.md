@@ -26,8 +26,8 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 |-----------------------------------------------------------------------|---------------------------------------|
 | [CVRFile](#CVRFile) ReadFile(string fileName)                         | Reads the entire file                 |
 | [CVRFile](#CVRFile) ReadFile(string fileName, int offset, int length) | Reads a segment of a file             |
-| void WriteFile(string fileName, Span&lt;byte&gt bytes)                     | Writes all bytes (overwrite)          |
-| void WriteFile(string fileName, Span&lt;byte&gt bytes, int offset)         | Writes bytes at a specific offset     |
+| void WriteFile(string fileName, Span&lt;byte&gt; bytes)               | Writes all bytes (overwrite)          |
+| void WriteFile(string fileName, Span&lt;byte&gt; bytes, int offset)   | Writes bytes at a specific offset     |
 | void DeleteFile(string fileName)                                      | Deletes a file                        |
 | void RenameFile(string oldFileName, string newFileName)               | Renames a file                        |
 | bool FileExists(string fileName)                                      | Checks if a file exists               |
@@ -36,7 +36,7 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 | long GetTotalSize()                                                   | Total size of all stored files        |
 | long GetTotalCapacity()                                               | Maximum allowed storage size          |
 | bool CanUseFileStorage()                                              | Whether the world can use FileStorage |
-| void RequestUseFileStorage(Action<bool> onResult)                     | Prompts the user once for permission  |
+| void RequestUseFileStorage(Action&lt;bool&gt; onResult)               | Prompts the user once for permission  |
 
 ## CVRFile
 <small>**`WasmScripting.CVRFile`**</small>
@@ -45,10 +45,10 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 
 ### Instance Properties
 
-| Member | Type       | Description                |
-|--------|------------|----------------------------|
-| Bytes  | Span&lt;byte&gt | The file's raw byte buffer |
-| Length | int        | Number of bytes returned   |
+| Member | Type             | Description                |
+|--------|------------------|----------------------------|
+| Bytes  | Span&lt;byte&gt; | The file's raw byte buffer |
+| Length | int              | Number of bytes returned   |
 
 `Bytes` is a live span referencing unmanaged memory.  
 Do **not** store it long-term; copy data if needed.
