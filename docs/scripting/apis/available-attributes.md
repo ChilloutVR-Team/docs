@@ -36,11 +36,11 @@ This page lists some attributes available for scripting.
 The following attributes are not included in your built WASM module by default. 
 They can be included in your WASM module by adding `UNITY_EDITOR_ATTRIBUTES` to the `Scripting Define Symbols` in the [CCK Wasm Project Descriptor](../components/cck-wasm-project-descriptor.md) if you ever need to use them at runtime (not recommended).
 
-| Attribute                            | Description                                                   |
-|--------------------------------------|---------------------------------------------------------------|
-| [HideInInspector]                   | Hides a public field from the Unity Inspector.                |
-| [Header(string)]                    | Adds a header above a field in the Unity Inspector.           |
-| [PropertyRange(float min, float max)] | Constrains a numeric field to a range in the Unity Inspector. |
-| [Space(float height)]               | Adds vertical space above a field in the Unity Inspector.     |
-| [Tooltip(string)]                   | Adds a tooltip to a field in the Unity Inspector.             |
+| Attribute                              | Description                                                   |
+|----------------------------------------|---------------------------------------------------------------|
+| [HideInInspector]                      | Hides a public field from the Unity Inspector.                |
+| [Header(string)]                       | Adds a header above a field in the Unity Inspector.           |
+| [Range(float min, float max)]          | Constrains a numeric field to a range in the Unity Inspector. |
+| [Space(float height)]                  | Adds vertical space above a field in the Unity Inspector.     |
+| [Tooltip(string)]                      | Adds a tooltip to a field in the Unity Inspector.             |
 | [ColorUsage(bool showAlpha, bool hdr)] | Configures color field options in the Unity Inspector.        |
