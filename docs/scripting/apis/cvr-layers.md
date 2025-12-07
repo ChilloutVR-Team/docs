@@ -5,7 +5,7 @@
 Defines all CVR reserved and user-assignable layers used throughout CVR.
 This makes it easier to reference layers by name rather than hardcoding hard-to-remember integer values.
 
-## Layer Constants
+### Layer Constants
 
 | Name             | Value | Content Layer | Description                                                                           |
 |------------------|-------|---------------|---------------------------------------------------------------------------------------|

@@ -11,7 +11,7 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 ### Implementation Details
 
 * Worlds must request user permission to use FileStorage via `FileStorage.RequestUseFileStorage`.
-* Files written by this API are **sandboxed and encrypted**; scripts never see the real filesystem.
+* Files written by this API are **obfuscated**; scripts never see the real filesystem.
   * This is done to prevent writing malicious files, **not secure storage**. The encryption key is stored in the header of each written file.
 * Files added manually to a world's LocalStorage folder aren't counted against the world's storage, are read-only, and gated by a user permission.
 
@@ -26,8 +26,8 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 |-----------------------------------------------------------------------|---------------------------------------|
 | [CVRFile](#CVRFile) ReadFile(string fileName)                         | Reads the entire file                 |
 | [CVRFile](#CVRFile) ReadFile(string fileName, int offset, int length) | Reads a segment of a file             |
-| void WriteFile(string fileName, Span<byte> bytes)                     | Writes all bytes (overwrite)          |
-| void WriteFile(string fileName, Span<byte> bytes, int offset)         | Writes bytes at a specific offset     |
+| void WriteFile(string fileName, Span&lt;byte&gt; bytes)               | Writes all bytes (overwrite)          |
+| void WriteFile(string fileName, Span&lt;byte&gt; bytes, int offset)   | Writes bytes at a specific offset     |
 | void DeleteFile(string fileName)                                      | Deletes a file                        |
 | void RenameFile(string oldFileName, string newFileName)               | Renames a file                        |
 | bool FileExists(string fileName)                                      | Checks if a file exists               |
@@ -36,7 +36,7 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 | long GetTotalSize()                                                   | Total size of all stored files        |
 | long GetTotalCapacity()                                               | Maximum allowed storage size          |
 | bool CanUseFileStorage()                                              | Whether the world can use FileStorage |
-| void RequestUseFileStorage(Action<bool> onResult)                     | Prompts the user once for permission  |
+| void RequestUseFileStorage(Action&lt;bool&gt; onResult)               | Prompts the user once for permission  |
 
 ## CVRFile
 <small>**`WasmScripting.CVRFile`**</small>
@@ -45,42 +45,14 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 
 ### Instance Properties
 
-| Member | Type       | Description                |
-|--------|------------|----------------------------|
-| Bytes  | Span<byte> | The file's raw byte buffer |
-| Length | int        | Number of bytes returned   |
+| Member | Type             | Description                |
+|--------|------------------|----------------------------|
+| Bytes  | Span&lt;byte&gt; | The file's raw byte buffer |
+| Length | int              | Number of bytes returned   |
 
 `Bytes` is a live span referencing unmanaged memory.  
 Do **not** store it long-term; copy data if needed.
 
-## Example: Writing and Reading Files
+## Relevant Examples
 
-```csharp
-using UnityEngine;
-using WasmScripting;
-using CVR;
-
-public partial class FileStorageExample : WasmBehaviour
-{
-    void Start()
-    {
-        // Write file
-        string dataToWrite = "Hello, FileStorage!";
-        byte[] bytesToWrite = System.Text.Encoding.UTF8.GetBytes(dataToWrite);
-        FileStorage.WriteFile("test", bytesToWrite);
-
-        // Read file
-        CVRFile file = FileStorage.ReadFile("test");
-
-        if (file.Length > 0)
-        {
-            string content = System.Text.Encoding.UTF8.GetString(file.Bytes);
-            Debug.Log($"Read from FileStorage: {content}");
-        }
-        else
-        {
-            Debug.Log("No data found in FileStorage for 'test'");
-        }
-    }
-}
-```
+- [Writing A Text File](../examples/writing-a-text-file.md)
