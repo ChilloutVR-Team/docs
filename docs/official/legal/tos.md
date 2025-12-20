@@ -3,9 +3,9 @@ Every user signing up for and using our services is required to understand, acce
 
 We reserve the right to slightly update wording and correct mistakes without requiring re-acceptance of the terms.
 
-Current Version: 2025-V8
+Current Version: 2025-V9
 
-Updated: 29.09.2025
+Updated: 20.12.2025
 
 ## ChilloutVR Terms of Service / Terms of Usage
 
