@@ -1,0 +1,75 @@
+﻿# CVR Camera API
+
+Provides wrapped access to the active player camera and portable camera, along with full control over camera rendering settings.
+
+## CVR Camera
+<big><sub>**`CVR.CVRCamera`**</sub></big>
+
+Base class for [CVR Player Camera](#cvr-player-camera) and [CVR Portable Camera](#cvr-portable-camera), providing access to common camera settings and functionality.
+
+### Static Members
+
+#### Static Properties
+
+| Signature                                                           | Description                         |
+|---------------------------------------------------------------------|-------------------------------------|
+| [CVRPlayerCamera](#cvr-player-camera) PlayerCamera \{ get; \}       | Returns the player camera wrapper   |
+| [CVRPortableCamera](#cvr-portable-camera) PortableCamera \{ get; \} | Returns the portable camera wrapper |
+
+### Instance Members
+
+#### Instance Methods
+
+| Signature                                                                                                                                                                                          | Description                                                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Camera](https://docs.unity3d.com/ScriptReference/Camera.html) GetCamera();                                                                                                                    | Returns the underlying Unity [Camera](https://docs.unity3d.com/ScriptReference/Camera.html) component.<br/><sub>Note: The CVRPlayerCamera wraps multiple cameras, so the returned camera can change. Do not cache it.</sub> |
+| float GetNearClipPlane();                                                                                                                                                                          | Gets the [near clip plane](https://docs.unity3d.com/ScriptReference/Camera-nearClipPlane.html)                                                                                                                              |
+| void SetNearClipPlane(float v);                                                                                                                                                                    | Sets the [near clip plane](https://docs.unity3d.com/ScriptReference/Camera-nearClipPlane.html)                                                                                                                              |
+| float GetFarClipPlane();                                                                                                                                                                           | Gets the [far clip plane](https://docs.unity3d.com/ScriptReference/Camera-farClipPlane.html)                                                                                                                                |
+| void SetFarClipPlane(float v);                                                                                                                                                                     | Sets the [far clip plane](https://docs.unity3d.com/ScriptReference/Camera-farClipPlane.html)                                                                                                                                |
+| bool GetAllowHDR();                                                                                                                                                                                | Gets [HDR](https://docs.unity3d.com/ScriptReference/Camera-allowHDR.html) usage                                                                                                                                             |
+| void SetAllowHDR(bool v);                                                                                                                                                                          | Sets [HDR](https://docs.unity3d.com/ScriptReference/Camera-allowHDR.html) usage                                                                                                                                             |
+| [DepthTextureMode](https://docs.unity3d.com/ScriptReference/DepthTextureMode.html) GetDepthTextureMode();                                                                                      | Gets the depth texture mode                                                                                                                                                                                                     |
+| void SetDepthTextureMode([DepthTextureMode](https://docs.unity3d.com/ScriptReference/DepthTextureMode.html) v);                                                                                | Sets the depth texture mode                                                                                                                                                                                                     |
+| bool GetUseOcclusionCulling();                                                                                                                                                                     | Gets [occlusion culling](https://docs.unity3d.com/ScriptReference/Camera-useOcclusionCulling.html) state                                                                                                                    |
+| void SetUseOcclusionCulling(bool v);                                                                                                                                                               | Sets [occlusion culling](https://docs.unity3d.com/ScriptReference/Camera-useOcclusionCulling.html) state                                                                                                                    |
+| bool GetAllowMSAA();                                                                                                                                                                               | Gets [MSAA](https://docs.unity3d.com/ScriptReference/Camera-allowMSAA.html) allowance                                                                                                                                       |
+| void SetAllowMSAA(bool v);                                                                                                                                                                         | Sets [MSAA](https://docs.unity3d.com/ScriptReference/Camera-allowMSAA.html) allowance                                                                                                                                       |
+| [LayerMask](https://docs.unity3d.com/ScriptReference/LayerMask.html) GetCullingMask();                                                                                                         | Gets the [culling mask](https://docs.unity3d.com/ScriptReference/Camera-cullingMask.html)                                                                                                                                   |
+| void SetCullingMask([LayerMask](https://docs.unity3d.com/ScriptReference/LayerMask.html) v);                                                                                                   | Sets the [culling mask](https://docs.unity3d.com/ScriptReference/Camera-cullingMask.html)                                                                                                                                   |
+| [CameraClearFlags](https://docs.unity3d.com/ScriptReference/CameraClearFlags.html) GetClearFlags();                                                                                            | Gets clear flags                                                                                                                                                                                                                |
+| void SetClearFlags([CameraClearFlags](https://docs.unity3d.com/ScriptReference/CameraClearFlags.html) v);                                                                                      | Sets clear flags                                                                                                                                                                                                                |
+| [Color](https://docs.unity3d.com/ScriptReference/Color.html) GetBackgroundColor();                                                                                                             | Gets the background color                                                                                                                                                                                                       |
+| void SetBackgroundColor([Color](https://docs.unity3d.com/ScriptReference/Color.html) v);                                                                                                       | Sets the background color                                                                                                                                                                                                       |
+| bool GetLayerCullSpherical();                                                                                                                                                                      | Gets [spherical layer culling](https://docs.unity3d.com/ScriptReference/Camera-layerCullSpherical.html)                                                                                                                     |
+| void SetLayerCullSpherical(bool v);                                                                                                                                                                | Sets [spherical layer culling](https://docs.unity3d.com/ScriptReference/Camera-layerCullSpherical.html)                                                                                                                     |
+| float[] GetLayerCullDistances();                                                                                                                                                                   | Gets [layer cull distances](https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html)                                                                                                                        |
+| void SetLayerCullDistances(float[] arr);                                                                                                                                                           | Sets [layer cull distances](https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html)                                                                                                                        |
+| void CopyFrom([Camera](https://docs.unity3d.com/ScriptReference/Camera.html) source);                                                                                                          | Copies camera settings from another [Camera](https://docs.unity3d.com/ScriptReference/Camera.CopyFrom.html)                                                                                                                 |
+| ResetToDefault();                                                                                                                                                                                  | Resets camera settings to default                                                                                                                                                                                               |
+| CopyPostProcessing([Camera](https://docs.unity3d.com/ScriptReference/Camera.html) sourceCamera);                                                                                               | Copies post-processing settings from another camera                                                                                                                                                                             |
+| ClearPostProcessing();                                                                                                                                                                             | Clears post-processing settings                                                                                                                                                                                                 |
+| [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) GetEyePosition([Camera.StereoscopicEye](https://docs.unity3d.com/ScriptReference/Camera.StereoscopicEye.html) eye);       | Gets the per-eye world position                                                                                                                                                                                                 |
+| [Quaternion](https://docs.unity3d.com/ScriptReference/Quaternion.html) GetEyeRotation([Camera.StereoscopicEye](https://docs.unity3d.com/ScriptReference/Camera.StereoscopicEye.html) eye); | Gets the per-eye world rotation                                                                                                                                                                                                 |
+
+## CVR Player Camera
+<big><sub>**`CVR.CVRPlayerCamera` : `CVR.CVRCamera`**</sub></big>
+
+Provides wrapped access to the active player camera.
+
+### Instance Methods
+
+| Signature                                  | Description                                                                                    |
+|--------------------------------------------|------------------------------------------------------------------------------------------------|
+| CVRCameraRenderingMode GetRenderingMode(); | Returns the active rendering mode for the player camera.<br/>(0:Normal, 1:FakeMultiPass, 2:MockHMD) |
+
+## CVR Portable Camera
+<big><sub>**`CVR.CVRPortableCamera` : `CVR.CVRCamera`**</sub></big>
+
+Provides wrapped access to the portable camera.
+
+### Instance Methods
+
+| Signature                                         | Description                                            |
+| ------------------------------------------------- |--------------------------------------------------------|
+| bool IsActive();                                  | Returns true if the portable camera is open and active |
