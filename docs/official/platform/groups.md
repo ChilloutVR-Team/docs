@@ -1,5 +1,5 @@
 ---
-title: Verified Groups
+title: Groups and Verified Groups
 ---
 # Group Instances & Permissions
 
