@@ -73,3 +73,7 @@ However, if you wish to enact rules specific to your event, please keep them rea
 **A:** If you have a Group Moderator blocked, they will still be able to see you while in the Group Instance. This is necessary to prevent abuse of the self-moderation system to avoid group moderation, much like exemptions applied to the ChilloutVR Moderation Team. However, if a Group Moderator has you blocked, no exemptions will be made.
 
 When joining a Group Instance, a list of Group Moderators and their permissions will be displayed before joining the instance. Any relevant users that are blocked will be shown in red.
+
+### **Q:** How many members are needed to apply?
+
+**A:** While there is no set amount, working to establish your group prior to submitting an application will greatly increase your chances of being accepted. Groups with few members, or long periods of inactivity, may not be considered to maintain the trust and integrity of verified groups and prevent potential low-effort abuse of those permissions.
