@@ -3,7 +3,7 @@ Every user signing up for and using our services is required to understand, acce
 
 We reserve the right to slightly update wording and correct mistakes without requiring re-acceptance of the terms.
 
-Current Version: 2025-V10
+Current Version: 2026-V10
 
 Updated: 09.02.2026
 
