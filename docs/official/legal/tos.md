@@ -3,9 +3,9 @@ Every user signing up for and using our services is required to understand, acce
 
 We reserve the right to slightly update wording and correct mistakes without requiring re-acceptance of the terms.
 
-Current Version: 2025-V9
+Current Version: 2025-V10
 
-Updated: 20.12.2025
+Updated: 09.02.2026
 
 ## ChilloutVR Terms of Service / Terms of Usage
 
@@ -92,12 +92,26 @@ For general support requests, technical issues, or any other inquiries, reach ou
 
 - **§5.2** All content you upload to ChilloutVR must apply to one of the following:
 
-  - Entirely created by you
-  - Licensed to you with the permission of sub-licensing the content
-  - Contain significant changes to the base version of the content (parody, mimic, pastiche).
+    - The Content was entirely created by or for you
+    - You have obtained a license to use the content
+    - The content falls under legal exclusions of the applicable copyright law (parody, mimic, pastiche, public domain content).
 
-German and European copyright law applies to all uploaded content, regardless of your location of residence.
-You may never upload content without explicit permission, ownership, or a license.
+    German and European copyright law applies to all uploaded content, regardless of your location of residence.
+    You may never upload content without explicit permission, ownership, or a license.
+
+- **§5.2.1** The ChilloutVR team reserves the right to request POO (proof of ownership) in the case of a takedown request initiated by a third party.
+  In the case of a takedown request you can submit your proof of ownership in the following ways:
+    - Explanation and certification that the content was fully created by yourself.
+    - Timelapse creation videos
+    - Chat logs that provide reasonable proof that the content was created for you
+    - Proof of payment to obtain a license for said content
+    - Asset store or third party site invoices
+    - Purchase confirmation emails
+    - Written and signed license agreements
+    - Links or other references towards publicly available documentation for public domain / free use content
+
+    First offenders will receive a warning with a message to supply POO. Repeated offenders will receive increasing temporary suspensions based on the severity of the case and the amount of content in violation.
+
 
 - **§5.3** Any sort of theft, including but not limited to theft of registered intellectual property or content (including "ripping"), is forbidden. This explicitly includes content from any source, including ChilloutVR itself.
 
@@ -165,11 +179,12 @@ Third-party applications or sites that use or reference our services are permitt
 "This modification is unofficial and not supported by ChilloutVR or the ChilloutVR team. Using this modification might cause issues with performance, security or stability of the game."
 
 ### 9 - Commercial Usage
-- **§9.1** You may never commercialize your use of the platform by monetizing your content or yourself by offering products, services or selling access to content or events without explicit written permission from ChilloutVR or the ChilloutVR team if you exceed a yearly threshold of €2.500,00 in gross revenue. If your gross revenue exceeds the mentioned threshold, you can request permission by mailing us at the address above.
+- **§9.1** You may never commercialize your use of the platform by monetizing your content or yourself by offering products, services or selling access to content or events without explicit written permission from ChilloutVR or the ChilloutVR team if you exceed a yearly threshold of €50.000,00 in gross revenue. If your gross revenue exceeds the mentioned threshold, you can request permission by mailing us at the address above.
 
-- **§9.2** Any sort of corporate usage of the platform requires an enterprise license agreement to be formed. In this case, you must contact us after evaluating the platform but before starting any sort of business operation on it.
+- **§9.2** Any sort of corporate usage exceeding the threshold of the platform requires an enterprise license agreement to be formed. In this case, you must contact us after evaluating the platform but before starting any sort of business operation on it. If your planned use of the platform is likely exceeding the threshold mentioned in §9.1 you must contact us before starting to commercialize your use of the platform.
 
 - **§9.3** As a commercial user, you must take care of tax withholding and paying tax in the involved countries on your own behalf. The ChilloutVR team is not responsible for your taxation, but may request evidence of proper taxation as a part of approval.
+  - **§9.3.1** The aforementioned revenue threshold affects direct commercialization of the use of the platform itself. The limit does not affect content made for ChilloutVR and sold on external platforms, unless it is explicitly advertised within the ChilloutVR platform (ad banners including a direct link or something comparable).
 
 In order to request permission to use our products and services commercially, email us at the general support mail address provided at the top of the terms.
 
