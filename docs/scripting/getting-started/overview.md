@@ -20,7 +20,7 @@ This provides a more powerful and flexible way to create interactive content com
 
 The core of this system is built around our Permissions System, which allows user scripts a ton of capabilities while still keeping everything sane. 
 For example, an Avatar script can raycast to, and crawl a World object's hierarchy, but cannot modify the World itself.
-Please see [Script Context & Permissions](../context-and-permissions.md) for more information.
+Please see [Script Context & Permissions](../context-and-permissions) for more information.
 
 ## What can I do?
 

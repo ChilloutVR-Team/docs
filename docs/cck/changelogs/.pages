@@ -1,5 +1,6 @@
 title: Changelogs
 nav:
+    - Preview 4.0.0: preview-4.0.0.md
     - Release 3.16.4: release-3.16.4.md
     - Release 3.15.0: release-3.15.0.md
     - Release 3.11: release-3.11.md
