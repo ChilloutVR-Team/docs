@@ -20,7 +20,7 @@ comparison below.
     proven and don't need the latest features.
 
     [:octicons-download-16: Download CCK 3](#cck-3-stable)
-- 
+
     [:octicons-book-16: Latest Changelog](../changelogs/release-3.16.4/)
 
 -   :material-flask:{ .lg .middle } __CCK 4 (Preview)__
