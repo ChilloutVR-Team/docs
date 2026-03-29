@@ -1,13 +1,24 @@
 {
-  "cck": {
+  "cck3": {
     "version": "v3.16.4 Release",
-    "downloadUrl": "https://files.chilloutvr.net/static_web/ChilloutVR_CCK_3.16.4_Release.unitypackage"
+    "downloadUrl": "https://files.chilloutvr.net/static_web/ChilloutVR_CCK_3.16.4_Release.unitypackage",
+    "unity": {
+      "install": {
+        "version": "2021.3.45f2",
+        "hub": "unityhub://2021.3.45f2/88f88f591b2e",
+        "executable": "https://unity.com/releases/editor/whats-new/2021.3.45f2#installs"
+      }
+    }
   },
-  "unity": {
-    "install": {
-      "version": "2021.3.45f2",
-      "hub": "unityhub://2021.3.45f2/88f88f591b2e",
-      "executable": "https://unity.com/releases/editor/whats-new/2021.3.45f2#installs"
+  "cck4": {
+    "version": "v4.0.0 Preview",
+    "downloadUrl": "https://files.chilloutvr.net/static_web/CCK_4.0.0_Preview.22.unitypackage",
+    "unity": {
+      "install": {
+        "version": "2022.3.58f1",
+        "hub": "unityhub://2022.3.58f1/ed7f6eacb62e",
+        "executable": "https://unity.com/releases/editor/whats-new/2022.3.58f1#installs"
+      }
     }
   }
 }
