@@ -19,7 +19,9 @@ comparison below.
     Development on CCK 3 is finished. Pick this if you want something
     proven and don't need the latest features.
 
-    [:octicons-arrow-right-24: Download CCK 3](#cck-3-stable)
+    [:octicons-download-16: Download CCK 3](#cck-3-stable)
+- 
+    [:octicons-book-16: Latest Changelog](../changelogs/release-3.16.4/)
 
 -   :material-flask:{ .lg .middle } __CCK 4 (Preview)__
 
@@ -32,7 +34,9 @@ comparison below.
     Still in preview and missing some translations, but all future
     development is happening here.
 
-    [:octicons-arrow-right-24: Download CCK 4](#cck-4-preview)
+    [:octicons-download-16: Download CCK 4](#cck-4-preview)
+
+    [:octicons-book-16: Full Changelog](../changelogs/preview-4.0.0/)
 
 </div>
 
@@ -70,6 +74,10 @@ comparison below.
 
     [ :fontawesome-solid-download: Unity {{ cck.cck4.unity.install.version }} (Unity Hub)]({{ cck.cck4.unity.install.hub }}){ .md-button .md-button--primary }
     [ :fontawesome-solid-download: Unity {{ cck.cck4.unity.install.version }} (Win-Executable)]({{ cck.cck4.unity.install.executable }}){ .md-button }
+
+    !!! info "Reguarding the Unity Security Update Advisory"
+        **Unity {{ cck.cck4.unity.install.version }}** will be flagged by Unity Hub as vulnerable due to a recent Unity Security Update Advisory.
+        This issue does not affect the Unity Editor and is specific to player builds only, so __it is safe to use this version__ for creating content in ChilloutVR.
 
 ## Installation
 
