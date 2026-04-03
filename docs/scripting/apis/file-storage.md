@@ -8,12 +8,36 @@ Files are stored at: `/AppData/Local/ChilloutVR/LocalStorage/[WorldId]/[fileName
 !!! info
     Only **Worlds** may use FileStorage. Avatars and Props cannot access FileStorage.
 
-### Implementation Details
+### Is this safe?
 
-* Worlds must request user permission to use FileStorage via `FileStorage.RequestUseFileStorage`.
-* Files written by this API are **obfuscated**; scripts never see the real filesystem.
-  * This is done to prevent writing malicious files, **not secure storage**. The encryption key is stored in the header of each written file.
-* Files added manually to a world's LocalStorage folder aren't counted against the world's storage, are read-only, and gated by a user permission.
+We understand that any API involving file access raises concerns. Here's the short version:
+
+FileStorage is a save-data system. Think of it like a game's save folder. Each world gets its own folder, and that's the only place it can read or write. It cannot see, access, or interact with anything else on your computer. Not your browser, not your documents, not your registry, nothing. The world can't even use this folder until you say yes to a permission prompt, and you can take that permission back whenever you want.
+
+If a world asks for "Read Raw Files", that just means it wants to read files **you** put in its folder yourself, like ROMs for an emulator or a custom config. It still can't look anywhere else.
+
+The sections below go into the technical details if you want them.
+
+#### Security Scope
+
+* FileStorage is **completely sandboxed**. All reads and writes are confined to the world's own `LocalStorage` folder listed above. The API has no ability to access any other location on your computer.
+* Filenames are sanitized by stripping all characters that the OS considers invalid in a filename, including `/` and `\`. Path traversal (e.g. `../../`) is not possible.
+* Filenames are limited to **100 characters**. Worlds are limited to **1000 files** and a user-configurable total size cap.
+* A world **cannot use FileStorage at all** until the user explicitly grants permission. This permission can be revoked at any time.
+* FileStorage cannot access your browser data, system files, or anything outside its sandbox.
+
+#### Obfuscation
+
+* Files written by this API are **obfuscated** on disk using a per-file XOR key stored in the file header and a randomized file name.
+* This exists to prevent worlds from writing files that could be mistaken for or executed as something else (e.g. `.exe`, `.dll`). It is **not encryption** and should not be treated as secure storage for sensitive data.
+
+#### Raw User Files
+
+* Users can manually place files into a world's `LocalStorage` folder for that world to read (e.g. custom textures, ROM files for an emulator, configuration files).
+* These files require a **separate user permission** ("Read Raw Files") that must also be explicitly granted.
+* Raw files are **read-only** to the world. The world cannot modify or delete them.
+* Raw files are not counted against the world's storage limit set by the user.
+* This permission still only allows reading files inside the world's own `LocalStorage` folder. It does not grant access to any other directory.
 
 ## FileStorage
 <small>**`WasmScripting.FileStorage`**</small>
