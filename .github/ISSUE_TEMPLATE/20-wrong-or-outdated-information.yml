@@ -35,7 +35,7 @@ body:
     id: where-link
     attributes:
       label: 'Please provide a link to the page'
-      placeholder: 'https://docs.abinteractive.net/cck/avatar/face-tracking/#separate-frown-blendshape'
+      placeholder: 'https://docs.chilloutvr.net/cck/avatar/face-tracking/#separate-frown-blendshape'
     validations:
       required: true
 

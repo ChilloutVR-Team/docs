@@ -130,9 +130,9 @@ Always refer to the user as "players" or "player", we are making a game. If dire
 
 Use the proper full name "ChilloutVR" when addressing the game. The abbreviation "CVR" is also acceptable under certain circumstances such as unavoidable repetition, or referencing things that exist in-game or within the CCK already using it.
 
-### Addressing ABI
+### Addressing ChilloutVR Team
 
-When addressing Alpha Blend Interactive, please use first-person plural pronouns, such as "we", "our", and "us". There shouldn't be any instances where the full company name is used, but if needed, use the full proper company name: "Alpha Blend Interactive, Inc.".
+When addressing the ChilloutVR Team, please use first-person plural pronouns, such as "we", "our", and "us".
 
 ## Embed Rules
 

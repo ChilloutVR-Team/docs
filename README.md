@@ -1,14 +1,14 @@
-!["ABI Logo Short"](https://docs.abinteractive.net/assets/images/abi-small-white.png)
+!["CVR Logo Cut"](https://docs.chilloutvr.net/assets/images/CVR-white-small-cut.png)
 
 # Documentation
 
-This repository contains the source files for the Alpha Blend Interactive Documentation available under [docs.abinteractive.net](https://docs.abinteractive.net/)
+This repository contains the source files for the Alpha Blend Interactive Documentation available under [docs.chilloutvr.net](https://docs.chilloutvr.net/)
 
 ## How to Contribute
 
 ### Branches
 
-- master is our production branch, means anything in master goes/is in the production site at [docs.abinteractive.net](https://docs.abinteractive.net/)
+- master is our production branch, means anything in master goes/is in the production site at [docs.chilloutvr.net](https://docs.chilloutvr.net/)
 - develop is our main development branch, merge and base your changes to/from here
 
 ### External Contributors
