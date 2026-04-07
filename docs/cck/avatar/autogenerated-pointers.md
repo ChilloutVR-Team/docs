@@ -60,4 +60,4 @@ The following pointers are maintained for backwards compatibility with older con
 
 - Pointers are **case-sensitive**.
 - These pointers are only generated for avatars with a **Humanoid** rig.
-- They are typically used with [CVR Advanced Avatar Settings Trigger](../components/cvr-advanced-avatar-settings-trigger.md) and [CVR Interactable](../components/cvr-interactable.md) components to detect collisions and interactions.
+- They are typically used with [CVR Advanced Avatar Trigger](../components/cvr-advanced-avatar-settings-trigger.md) and [CVR Interactable](../components/cvr-interactable.md) components to detect collisions and interactions.
