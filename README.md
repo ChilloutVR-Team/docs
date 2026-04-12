@@ -2,7 +2,7 @@
 
 # Documentation
 
-This repository contains the source files for the Alpha Blend Interactive Documentation available under [docs.chilloutvr.net](https://docs.chilloutvr.net/)
+This repository contains the source files for the ChilloutVR Documentation available under [docs.chilloutvr.net](https://docs.chilloutvr.net/)
 
 ## How to Contribute
 
