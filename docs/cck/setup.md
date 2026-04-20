@@ -8,22 +8,7 @@ comparison below.
 
 <div class="grid cards" markdown>
 
--   :material-shield-check:{ .lg .middle } __CCK 3 (Stable)__
-
-    ---
-
-    The long-standing stable release with localization in English,
-    Chinese, Dutch, French, German, Japanese, Korean, and Russian.
-    Uses **Unity {{ cck.cck3.unity.install.version }}**.
-
-    Development on CCK 3 is finished. Pick this if you want something
-    proven and don't need the latest features.
-
-    [:octicons-download-16: Download CCK 3](#cck-3-stable)
-
-    [:octicons-book-16: Latest Changelog](../changelogs/release-3.16.4/)
-
--   :material-flask:{ .lg .middle } __CCK 4 (Preview)__
+-   :material-shield-check:{ .lg .middle } __CCK 4 (Release)__
 
     ---
 
@@ -31,12 +16,26 @@ comparison below.
     switcher, and reworked build pipeline. No more play mode
     to upload. Uses **Unity {{ cck.cck4.unity.install.version }}**.
 
-    Still in preview and missing some translations, but all future
+    Missing some translations, but all future
     development is happening here.
 
-    [:octicons-download-16: Download CCK 4](#cck-4-preview)
+    [:octicons-download-16: Download CCK 4](#cck-4-Stable)
 
     [:octicons-book-16: Full Changelog](../changelogs/preview-4.0.0/)
+
+-   :material-flask:{ .lg .middle } __CCK 3 (Legacy)__
+
+    ---
+
+    The long-standing stable release with localization in English,
+    Chinese, Dutch, French, German, Japanese, Korean, and Russian.
+    Uses **Unity {{ cck.cck3.unity.install.version }}**.
+
+    Development on CCK 3 will not be continued. We recommend to use CCK 4 for active development since CCK 3 will be deprecated in the future.
+
+    [:octicons-download-16: Download CCK 3](#cck-3-Legacy)
+
+    [:octicons-book-16: Latest Changelog](../changelogs/release-3.16.4/)
 
 </div>
 
@@ -45,24 +44,7 @@ comparison below.
 
 ## Downloads
 
-=== "CCK 3 (Stable)"
-
-    ##### Download CCK 3
-
-    [ :fontawesome-solid-download: Download Content Creation Kit {{ cck.cck3.version }}]({{ cck.cck3.downloadUrl }}){ .md-button .md-button--primary }
-
-    ##### Download Unity for CCK 3
-
-    You also need one of our supported unity versions, we recommend to use **Unity {{ cck.cck3.unity.install.version }}**
-
-    [ :fontawesome-solid-download: Unity {{ cck.cck3.unity.install.version }} (Unity Hub)]({{ cck.cck3.unity.install.hub }}){ .md-button .md-button--primary }
-    [ :fontawesome-solid-download: Unity {{ cck.cck3.unity.install.version }} (Win-Executable)]({{ cck.cck3.unity.install.executable }}){ .md-button }
-
-=== "CCK 4 (Preview)"
-
-    !!! warning "Preview Release"
-        CCK 4 is still in active development. Back up your project before importing, and report any issues to the
-        [CCK 4 Megathread](https://github.com/ChilloutVR-Team/ChilloutVR-Issues/issues/1833) on our issue tracker.
+=== "CCK 4 (Stable)"
 
     ##### Download CCK 4
 
@@ -79,22 +61,22 @@ comparison below.
         **Unity {{ cck.cck4.unity.install.version }}** will be flagged by Unity Hub as vulnerable due to a recent Unity Security Update Advisory.
         This issue does not affect the Unity Editor and is specific to player builds only, so __it is safe to use this version__ for creating content in ChilloutVR.
 
+=== "CCK 3 (Legacy)"
+
+    ##### Download CCK 3
+
+    [ :fontawesome-solid-download: Download Content Creation Kit {{ cck.cck3.version }}]({{ cck.cck3.downloadUrl }}){ .md-button .md-button--primary }
+
+    ##### Download Unity for CCK 3
+
+    You also need one of our supported unity versions, we recommend to use **Unity {{ cck.cck3.unity.install.version }}**
+
+    [ :fontawesome-solid-download: Unity {{ cck.cck3.unity.install.version }} (Unity Hub)]({{ cck.cck3.unity.install.hub }}){ .md-button .md-button--primary }
+    [ :fontawesome-solid-download: Unity {{ cck.cck3.unity.install.version }} (Win-Executable)]({{ cck.cck3.unity.install.executable }}){ .md-button }
+
 ## Installation
 
-=== "CCK 3 (Stable)"
-
-    ##### Removing old installations
-
-    Before importing the new version, please remove the following folders in the main directory of your Unity project if
-    present: `ABI.CCK` and `ABI.MODS`. A restart of the editor is not required. This procedure can be optional but is
-    recommended for line version upgrades (1.X to 2.X, 2.X to 3.X, etc.)
-
-    ##### Importing new CCK
-
-    If no old CCK is present, you can just import the package found above. If you already have an older version of our CCK
-    imported, please refer to the information of the step above.
-
-=== "CCK 4 (Preview)"
+=== "CCK 4 (Stable)"
 
     !!! danger "Clean import required, every time"
         CCK 4 requires a clean import every time you update, including between preview releases. Things are constantly
@@ -112,6 +94,19 @@ comparison below.
     ##### Importing new CCK
 
     Once the old folders are removed, import the CCK 4 package downloaded above.
+
+=== "CCK 3 (Legacy)"
+
+    ##### Removing old installations
+
+    Before importing the new version, please remove the following folders in the main directory of your Unity project if
+    present: `ABI.CCK` and `ABI.MODS`. A restart of the editor is not required. This procedure can be optional but is
+    recommended for line version upgrades (1.X to 2.X, 2.X to 3.X, etc.)
+
+    ##### Importing new CCK
+
+    If no old CCK is present, you can just import the package found above. If you already have an older version of our CCK
+    imported, please refer to the information of the step above.
 
 ##### Signing in to the CCK
 

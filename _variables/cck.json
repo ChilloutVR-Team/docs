@@ -1,6 +1,6 @@
 {
   "cck3": {
-    "version": "v3.16.4 Release",
+    "version": "v3.16.4 Legacy",
     "downloadUrl": "https://files.chilloutvr.net/static_web/ChilloutVR_CCK_3.16.4_Release.unitypackage",
     "unity": {
       "install": {
@@ -11,8 +11,8 @@
     }
   },
   "cck4": {
-    "version": "v4.0.0 Preview",
-    "downloadUrl": "https://files.chilloutvr.net/static_web/CCK_4.0.0_Preview.22.unitypackage",
+    "version": "v4.0.0",
+    "downloadUrl": "https://files.chilloutvr.net/static_web/CCK_4.0.0_Release.unitypackage",
     "unity": {
       "install": {
         "version": "2022.3.58f1",
