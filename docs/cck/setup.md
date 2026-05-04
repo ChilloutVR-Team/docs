@@ -19,7 +19,7 @@ comparison below.
     Missing some translations, but all future
     development is happening here.
 
-    [:octicons-download-16: Download CCK 4](#cck-4-Stable)
+    [:octicons-download-16: Download CCK 4](#cck-4-stable)
 
     [:octicons-book-16: Full Changelog](../changelogs/preview-4.0.0/)
 
@@ -33,7 +33,7 @@ comparison below.
 
     Development on CCK 3 will not be continued. We recommend to use CCK 4 for active development since CCK 3 will be deprecated in the future.
 
-    [:octicons-download-16: Download CCK 3](#cck-3-Legacy)
+    [:octicons-download-16: Download CCK 3](#cck-3-legacy)
 
     [:octicons-book-16: Latest Changelog](../changelogs/release-3.16.4/)
 
