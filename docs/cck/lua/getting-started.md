@@ -15,7 +15,7 @@ You will need to install the following, following the vendors' instructions for 
 This only needs to be done once.
 
 1. Close all VSCode windows to avoid weird bugs from editing things VSCode has open.
-1. In the Unity Editor, run *Alpha Blend Interactive* &gt; *Scripting* &gt; *Set Up VSCode*
+1. In the Unity Editor, run *ChilloutVR* &gt; *Scripting* &gt; *Set Up VSCode*
 
 Your project is now ready for VSCode! You will now get syntax highlighting and auto-complete in Lua files.
 

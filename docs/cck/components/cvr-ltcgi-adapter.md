@@ -81,7 +81,7 @@ here: <https://github.com/kafeijao/ltcgi/releases/latest>{:target="_blank"}
 
 #### Broken/Incomplete LTCGI installation
 
-> Assets\ABI.CCK\Components\CVRLTCGIAdapter.cs(103,27): error CS0246: The type or namespace name 'LTCGI_UdonAdapter'
+> Assets\CVR.CCK\Scripts\Components\CVRLTCGIAdapter.cs(103,27): error CS0246: The type or namespace name 'LTCGI_UdonAdapter'
 > could not be found (are you missing a using directive or an assembly reference?)
 
 ![TroubleshootingMissingLTCGI.png](images/ltcgi-adapter/TroubleshootingMissingLTCGI.png)

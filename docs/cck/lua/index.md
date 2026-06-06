@@ -9,12 +9,6 @@ ChilloutVR uses a [slightly-modified version](https://moonsharp.org) of [Lua](ht
 
 Lua is one of the oldest, but most-used purpose-made embedded scripting languages on the planet, and is used in many games and applications.  
 
-While the syntax appears archaic, and lacks features that newer languages have, its simplicity gift it speed and efficiency unmatched by its competitors.
-
-Alpha Blend Interactive spent considerable time looking at alternatives, and after much research, ultimately decided that Lua was the best fit for our needs.
-
-We hope you enjoy creating with it!
-
 ## Tutorials
 
 * [Getting Started](./getting-started.md)
