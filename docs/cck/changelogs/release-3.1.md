@@ -5,9 +5,9 @@
 
 This CCK update adds support for all Unity versions between 2019.4.32 and 2019.4.35.
 
-- Fixed an issue where world props would not sync properly (https://forums.abinteractive.net/d/445-props-on-world-dont-sync)
-- Added options for reference Audio Sources to the Particle Sound Component (https://forums.abinteractive.net/d/462-particle-sound-controlling-values-of-its-created-audio-source)
-- Interactable on Particle Hit can now specify exclusive particle Systems (https://forums.abinteractive.net/d/367-detect-a-certain-particle-with-an-interactable)
+- Fixed an issue where world props would not sync properly
+- Added options for reference Audio Sources to the Particle Sound Component
+- Interactable on Particle Hit can now specify exclusive particle Systems
 - The Generate Animator button for advanced Avatars now skips already created layers and parameters when using a custom base animator
 - Added new Interactable actions OnGazeEnter/Exit for world creators
 - Added a description component to add additional information to prefabs and setups
