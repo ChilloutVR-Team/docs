@@ -11,8 +11,8 @@
     }
   },
   "cck4": {
-    "version": "v4.0.0",
-    "downloadUrl": "https://files.chilloutvr.net/static_web/CCK_4.0.0_Release.unitypackage",
+    "version": "v4.0.1",
+    "downloadUrl": "https://files.chilloutvr.net/cck/CCK_4.0.1_Release.unitypackage",
     "unity": {
       "install": {
         "version": "2022.3.58f1",
