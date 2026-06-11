@@ -1,4 +1,4 @@
-!["CVR Logo Cut"](https://docs.chilloutvr.net/assets/images/CVR-white-small-cut.png)
+!["CVR Logo"](https://docs.chilloutvr.net/assets/images/CVR-white-small-cut.png)
 
 # Documentation
 
