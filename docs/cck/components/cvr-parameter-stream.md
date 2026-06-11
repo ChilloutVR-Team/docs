@@ -64,15 +64,16 @@ The general types represent general information about the game.
 
 #### Instance Type Mapping
 
-| Instance Type     | Int Value |
-|-------------------|-----------|
-| Public            | 0         |
-| FriendsOfFriends  | 1         |
-| Friends           | 2         |
-| Groups            | 3         |
-| EveryoneCanInvite | 4         |
-| OwnerMustInvite   | 5         |
-| FriendsOfGroup    | 6         |
+| Instance Type               | Int Value |
+|-----------------------------|-----------|
+| Public                      | 0         |
+| FriendsOfFriends            | 1         |
+| Friends                     | 2         |
+| Group (Only)                | 3         |
+| EveryoneCanInvite           | 4         |
+| OwnerMustInvite             | 5         |
+| GroupPlus (FriendsOfGroup)  | 6         |
+| GroupPublic                 | 7         |
 
 ---
 

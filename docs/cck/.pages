@@ -12,3 +12,4 @@ nav:
     - Shader Globals: shader-globals.md
     - Validations: validations.md
     - FAQ: faq.md
+    - Changelogs: changelogs

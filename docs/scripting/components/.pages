@@ -1,0 +1,4 @@
+﻿title: Components
+nav:
+    - Wasm Behaviour: wasm-behaviour.md
+    - Wasm Project Descriptor: cck-wasm-project-descriptor.md

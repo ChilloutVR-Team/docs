@@ -8,7 +8,8 @@ You can find the most upto-date download link of our CCK here: [Setup Unity and 
 ChilloutVR is currently running on **Unity Version {{ chilloutvr.unity.nativeVersion }}**.  
 The CCK can be used with the following Unity Versions:
 
-+ **{{ cck.unity.install.version }}** (native)
++ **{{ cck.cck3.unity.install.version }}** ({{ cck.cck3.version }})
++ **{{ cck.cck4.unity.install.version }}** ({{ cck.cck4.version }})
 
 ### Still have more Questions?
 Couldn't find what you were looking for?  
