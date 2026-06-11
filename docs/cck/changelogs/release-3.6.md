@@ -1,6 +1,6 @@
 ﻿# CCK 3.6 Release Notes
 
-We have released CCK 3.6 to our documentation page: https://developers.abinteractive.net/cck/setup/
+We have released CCK 3.6 to our documentation page: https://docs.chilloutvr.net/cck/setup/
 
 CCK 3.6 contains the following changes:
 

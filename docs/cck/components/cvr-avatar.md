@@ -84,7 +84,7 @@ A game object that should be used as a fallback, if the game object defined abov
 The Base Animator is used as a base by the AAS generator. That for, its very easy to expand the base animator while 
 still using the AAS system.  
 As a novice user it is recommended to use the one packed with the CCK it is called ***AvatarAnimator*** located in 
-***Assets/ABI.CCK/Animations*** folder, you can use your own Animator here but we suggest to use the one packed with 
+***Assets/CVR.CCK/Assets/Avatar/Animations*** folder, you can use your own Animator here but we suggest to use the one packed with 
 the CCK unless you know what you are doing.
 
 ##### Override Controller

@@ -13,4 +13,4 @@ The CCK can be used with the following Unity Versions:
 
 ### Still have more Questions?
 Couldn't find what you were looking for?  
-Check out our [Discord]({{ abi.discord }})!
+Check out our [Discord]({{ cvr.discord }})!

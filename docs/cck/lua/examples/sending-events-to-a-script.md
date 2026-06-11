@@ -9,7 +9,7 @@ function Start()
     OTHER_SCRIPT = BoundObjects["OtherGameObject"].GetComponent
 end
 
--- See https://developers.abinteractive.net/cck/lua/api/events/#mouse-events
+-- See https://docs.chilloutvr.net/cck/lua/api/events/#mouse-events
 function OnMouseDown()
     OTHER_SCRIPT.CallReceiverFunction("Click", {Script.Hash})
 end
